@@ -1151,19 +1151,28 @@ const IndexPage = () => (
 
     {/* <!-- Sponsors Section Start --> */}
     <section style={{
-      display: 'none'
+      
     }} id="sponsors" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsores</h1>
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsors</h1>
               <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
             </div>
           </div>
         </div>
+        <h2>Platinum</h2>
         <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
-          <div className="col-md-3 col-sm-3 col-xs-12">
+          <div className="col-md-12 col-sm-12 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt="AWS Amplify"/></a>
+            </div>
+          </div>                 
+        </div>
+        <h2>Gold</h2>
+        <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+          {/* <div className="col-md-3 col-sm-3 col-xs-12">
             <div className="spnsors-logo">
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
             </div>
@@ -1182,11 +1191,57 @@ const IndexPage = () => (
             <div className="spnsors-logo">
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
             </div>
-          </div>
-          <div className="col-12 text-center">
-            <a href="#" className="btn btn-common">become a sponsor</a>
-          </div>
+          </div>           */}
         </div>
+        <h2>Silver</h2>
+        <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+          {/* <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-02.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-03.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
+            </div>
+          </div>           */}
+        </div>
+        <h2>Bronze</h2>
+        <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+          {/* <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-02.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-03.png" alt=""/></a>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-3 col-xs-12">
+            <div className="spnsors-logo">
+              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
+            </div>
+          </div>           */}
+        </div>
+      </div>
+      <div className="col-12 text-center">
+        <a href="#" className="btn btn-common">become a sponsor</a>
       </div>
     </section>
     {/* <!-- Sponsors Section End --> */}
