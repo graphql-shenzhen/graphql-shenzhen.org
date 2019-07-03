@@ -1174,7 +1174,11 @@ const IndexPage = () => (
         <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
           <div className="col-md-12 col-sm-12 col-xs-12">
             <div className="spnsors-logo">
-              <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt="AWS Amplify"/></a>
+              <a href="https://aws.amazon.com/amplify/"><img style={{
+                width: '100px',
+                height: '100px',
+                objectFit: 'contain'
+              }} className="img-fluid" src={require('../images/aws-amplify.png')} alt="AWS Amplify"/></a>
             </div>
           </div>                 
         </div>
