@@ -251,7 +251,7 @@ const IndexPage = () => (
                   fontSize: '2rem',
                   padding: '1em',
                   color: 'white',
-                  backgroundColor: '#E91E63'
+                  backgroundColor: '#e535ab'
                 }}>{props.days} days</h2>}
               />
             </div>
