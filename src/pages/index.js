@@ -114,7 +114,12 @@ const IndexPage = () => (
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#pricing">
-                  pricing
+                  tickets
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#coc">
+                  coc
                 </a>
               </li>
               <li className="nav-item">
@@ -150,7 +155,10 @@ const IndexPage = () => (
             <a className="page-scroll" href="#sponsors">Sponsors</a>
           </li>
           <li>
-            <a className="page-scroll" href="#pricing">pricing</a>
+            <a className="page-scroll" href="#pricing">tickets</a>
+          </li>
+          <li>
+            <a className="page-scroll" href="#coc">coc</a>
           </li>
           <li>
             <a className="page-scroll" href="#google-map-area">Contact</a>
@@ -1240,8 +1248,8 @@ const IndexPage = () => (
     </section>
     {/* <!-- Ticket Pricing Area End --> */}
 
-    {/* <!-- Event Slides Section Start --> */}
-    <section id="event-slides" className="section-padding">
+    {/* <!-- Code of Conduct Section Start --> */}
+    <section id="coc" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -1256,20 +1264,21 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
-            <p className="intro-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
-            </p>
+          <p className="intro-desc">GraphQL Hong Kong is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
+            <br/>
             <h2 className="intro-title">Check List</h2>
             <ul className="list-specification">
-              <li><i className="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li>
-              <li><i className="lni-check-mark-circle"></i> Ipsum passages, and more recently</li>
-              <li><i className="lni-check-mark-circle"></i> PageMaker including versions</li>
-              <li><i className="lni-check-mark-circle"></i> Lorem Ipsum is simply dummy</li> 
+              <li><i className="lni-check-mark-circle"></i> By & for the community!</li>
+              <li><i className="lni-check-mark-circle"></i> Harassment-free</li>
+              <li><i className="lni-check-mark-circle"></i> Open to everyone</li>
+              <br/>
             </ul>
+            <span>Check the less quick version <a href="https://confcodeofconduct.com/">here</a>!</span>
           </div>
         </div>
       </div>
     </section>
-    {/* <!-- Event Slides Section End --> */}
+    {/* <!-- Code of Conduct Section End --> */}
 
     {/* <!-- Blog Section Start --> */}
     <section style={{
