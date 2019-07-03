@@ -83,7 +83,7 @@ const IndexPage = () => (
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="#intro">
                   About
                 </a>
               </li>
@@ -260,13 +260,13 @@ const IndexPage = () => (
     {/* <!-- Coundown Section End --> */}
 
      {/* <!-- Services Section Start --> */}
-    <section id="services" className="services section-padding">
+    <section id="intro" className="services section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Why You Choose Us?</h1>
-              <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Why GraphQL Hong Kong?</h1>
+              <p className="wow fadeInDown" data-wow-delay="0.2s">1st local GraphQL Event in HK</p>
             </div>
           </div>
         </div>
@@ -350,12 +350,12 @@ const IndexPage = () => (
     
 
     {/* <!-- About Section Start --> */}
-    <section id="about" className="section-padding">
+    {/* <section id="about" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">About This Events</h1>
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">About This Event</h1>
               <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
             </div>
           </div>
@@ -367,7 +367,7 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">Wanna Know Our Mission?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
+                <a className="btn btn-common btn-rm" href="#">Read More</a>
               </div>
             </div>
           </div>
@@ -377,7 +377,7 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">What you will learn?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
+                <a className="btn btn-common btn-rm" href="#">Read More</a>
               </div>
             </div>
           </div>
@@ -387,13 +387,13 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">What are the benifits?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
+                <a className="btn btn-common btn-rm" href="#">Read More</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </div> 
+    </section> */}
     {/* <!-- About Section End --> */}
 
     {/* <!-- Counter Area Start--> */}
