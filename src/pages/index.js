@@ -65,7 +65,15 @@ const IndexPage = () => (
               <span className="icon-menu"></span>
               <span className="icon-menu"></span>
             </button>
-            <a href="index.html" className="navbar-brand"><img src="assets/img/logo.png" alt="" /></a>
+            <a href="index.html" className="navbar-brand">
+            <img style={{          
+              height: '40px',   
+              width: '40px',
+              objectFit: 'contain',
+              display: 'block',
+              margin: '0 auto'
+            }} src={require('../images/graphql-hongkong-logo.png')} alt="GraphQL Hong Kong Logo" />
+            </a>
           </div>
           <div className="collapse navbar-collapse" id="main-navbar">
             <ul className="navbar-nav mr-auto w-100 justify-content-end">
@@ -84,21 +92,21 @@ const IndexPage = () => (
                   schedules
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#team">
                   Speakers
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#gallery">
                   Gallery
                 </a>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#faq">
                   Faq
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#sponsors">
                   Sponsors
@@ -110,7 +118,7 @@ const IndexPage = () => (
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#google-map-area">
+                <a className="nav-link" href="#contact-map">
                   Contact
                 </a>
               </li>
@@ -154,13 +162,19 @@ const IndexPage = () => (
       {/* <!-- Navbar End --> */}
 
       <div style={{
+        paddingTop: '35vh',
         height: '85vh',
-        backgroundImage: `url(${slide1})`,
+        backgroundImage: `
+        linear-gradient(
+          rgba(15,15,15, 0.25), 
+          rgba(15,15,15, 0.25)
+        ),
+          url(${slide1})
+        `,
         backgroundSize: 'cover',
         textAlign: 'center'
-      }}>
-        <h1 style={{
-          paddingTop: '30vh',
+      }}>        
+        <h1 style={{          
           fontSize: '5rem',
           color: 'white'
         }}>GraphQL Hong Kong</h1>
@@ -353,7 +367,7 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">Wanna Know Our Mission?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a className="btn btn-common btn-rm" href="#">Read More</a>
+                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
               </div>
             </div>
           </div>
@@ -363,7 +377,7 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">What you will learn?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a className="btn btn-common btn-rm" href="#">Read More</a>
+                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
               </div>
             </div>
           </div>
@@ -373,7 +387,7 @@ const IndexPage = () => (
               <div className="about-text">
                 <h3><a href="#">What are the benifits?</a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
-                <a className="btn btn-common btn-rm" href="#">Read More</a>
+                {/* <a className="btn btn-common btn-rm" href="#">Read More</a> */}
               </div>
             </div>
           </div>
@@ -459,7 +473,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
                         </div>                     
-                        <span className="time">10am - 12:30pm</span>
+                        <span className="time">13:00pm - 13:30pm</span>
                         <h4>Web Design Principles and Best Practices</h4>
                         <h5 className="name">David Warner</h5>
                       </div>
@@ -1201,12 +1215,13 @@ const IndexPage = () => (
                 <h5>Standard Pass</h5>
               </div>
               <div className="price">
-                <h2>$40</h2>
-                <p>452 Tickets Available</p>
+                <h2>$25</h2>
+                <p>100 Tickets Available</p>
               </div>
               <div className="pricing-list">
                 <ul>
                   <li><i className="lni-check-mark-circle"></i><span className="text">Entrance</span></li>
+                  <li><i className="lni-check-mark-circle"></i><span className="text">Access to all talks</span></li>
                   <li><i className="lni-check-mark-circle"></i><span className="text">Coffee Breaks</span></li>
                   <li><i className="lni-check-mark-circle"></i><span className="text">Dinner</span></li>
                   {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> */}
@@ -1477,7 +1492,7 @@ const IndexPage = () => (
               <h5 className="widget-title">FOLLOW US ON</h5>
               <ul className="footer-social">
                 {/* <li><a className="facebook" href="#"><i className="lni-facebook-filled"></i></a></li> */}
-                <li><a className="twitter" href="#"><i className="lni-twitter-filled"></i></a></li>
+                <li><a className="twitter" href="https://twitter.com/GraphQLHongKong"><i className="lni-twitter-filled"></i></a></li>
                 {/* <li><a className="linkedin" href="#"><i className="lni-linkedin-filled"></i></a></li> */}
                 {/* <li><a className="google-plus" href="#"><i className="lni-google-plus"></i></a></li> */}
               </ul>
