@@ -3,13 +3,51 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import { Slide } from 'react-slideshow-image';
+import Countdown from 'react-countdown-now';
+
 require('../../assets/css/bootstrap.min.css')
 require('../../assets/fonts/line-icons.css')
-require('../../assets/css/slicknav.css')
+// require('../../assets/scss/slicknav.scss')
 require('../../assets/css/nivo-lightbox.css')
 require('../../assets/css/animate.css')
-require('../../assets/css/main.css')
-require('../../assets/css/responsive.css')
+
+require('../../assets/scss/main.scss')
+require('../../assets/scss/responsive.scss')
+const slide1 = require('../../assets/img//slider/slide_1.jpg')
+const slideImages = [
+  slide1,
+  // 'images/slide_3.jpg',
+  // 'images/slide_4.jpg'
+];
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+  onChange: (oldIndex, newIndex) => {
+    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+  }
+}
+
+const Slideshow = () => {
+  return (
+    <Slide {...properties}>
+      <div className="each-slide">
+        <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+          <span>Slide 1</span>
+        </div>
+      </div>
+      <div className="each-slide">
+        <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+          <span>Slide 2</span>
+        </div>
+      </div>      
+    </Slide>
+  )
+}
 
 const IndexPage = () => (
   <Layout>
@@ -115,8 +153,21 @@ const IndexPage = () => (
       </nav>
       {/* <!-- Navbar End --> */}
 
+      <div style={{
+        height: '85vh',
+        backgroundImage: `url(${slide1})`,
+        backgroundSize: 'cover',
+        textAlign: 'center'
+      }}>
+        <h1 style={{
+          paddingTop: '30vh',
+          fontSize: '5rem',
+          color: 'white'
+        }}>GraphQL Hong Kong</h1>
+      </div>
       {/* <!-- Main Carousel Section Start --> */}
-      <div id="main-slide" className="carousel slide" data-ride="carousel">
+      {/* <Slideshow /> */}
+      {/* <div id="main-slide" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#main-slide" data-slide-to="0" className="active"></li>
           <li data-target="#main-slide" data-slide-to="1"></li>
@@ -157,7 +208,7 @@ const IndexPage = () => (
           <span className="carousel-control" aria-hidden="true"><i className="lni-chevron-right"></i></span>
           <span className="sr-only">Next</span>
         </a>
-      </div>
+      </div> */}
       {/* <!-- Main Carousel Section End --> */}
 
     </header>
@@ -170,6 +221,17 @@ const IndexPage = () => (
           <div className="col-md-12 col-sm-12 col-xs-12">
             <div className="heading-count">
               <h2 className="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2>
+              <Countdown
+                date={'Sat, 29 Sep 2019 13:0:00'}
+                intervalDelay={0}
+                precision={3}
+                renderer={props => <h2 style={{
+                  fontSize: '2rem',
+                  padding: '1em',
+                  color: 'white',
+                  backgroundColor: '#E91E63'
+                }}>{props.days} days</h2>}
+              />
             </div>
           </div>
           <div className="col-md-12 col-sm-12 col-xs-12">
@@ -325,11 +387,11 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           {/* <!-- Counter Item --> */}
-          <div className="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+          <div className="col-md-6 col-lg-2 col-xs-12 work-counter-widget text-center">
             <div className="counter wow fadeInRight" data-wow-delay="0.3s">
-              <div className="icon"><i className="lni-map"></i></div>
-              <p>Wst. Conference Center</p>
-              <span>San Francisco, CA</span>
+              {/* <div className="icon"><i className="lni-map"></i></div> */}
+              {/* <p>Wst. Conference Center</p> */}
+              {/* <span>San Francisco, CA</span> */}
             </div>
           </div>
           {/* <!-- Counter Item --> */}
@@ -352,7 +414,7 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div className="counter wow fadeInRight" data-wow-delay="1.2s">
               <div className="icon"><i className="lni-coffee-cup"></i></div>
-              <p>Free Lunch &amp; Snacks</p>
+              <p>Free Dinner &amp; Snacks</p>
               <span>Don’t miss it</span>
             </div>
           </div>
@@ -953,7 +1015,7 @@ const IndexPage = () => (
     {/* <!-- Gallary Section End --> */}
 
     {/* <!-- Ask Question Section Start --> */}
-    <section id="faq" className="section-padding">
+    {/* <section id="faq" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -1070,7 +1132,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     {/* <!-- Ask Question Section End --> */}
 
     {/* <!-- Sponsors Section Start --> */}
@@ -1152,7 +1214,7 @@ const IndexPage = () => (
                   {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                 </ul>
               </div>
-              <a href="#" className="btn btn-common">Buy Ticket @Eventim</a>
+              <a href="#" className="btn btn-common">Buy Ticket @ Eventbrite</a>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xa-12 mb-3">
@@ -1278,7 +1340,7 @@ const IndexPage = () => (
     {/* <!-- Blog Section End --> */}
 
     {/* <!-- Subscribe Area Start --> */}
-    <div id="subscribe" className="section-padding">
+    {/* <div id="subscribe" className="section-padding">
       <div className="container">
         <div className="row justify-content-md-center">
           <div className="col-md-10 col-lg-7">
@@ -1294,7 +1356,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     {/* <!-- Subscribe Area End --> */}
 
     {/* <!-- Map Section Start --> */}

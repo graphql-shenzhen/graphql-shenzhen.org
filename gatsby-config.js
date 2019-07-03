@@ -5,6 +5,12 @@ module.exports = {
     author: `Carlos Rufo & Tobias Meixner`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        // includePaths: ["absolute/path/a", "absolute/path/b"],      
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
