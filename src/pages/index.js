@@ -10,7 +10,7 @@ require('../../assets/css/bootstrap.min.css')
 require('../../assets/fonts/line-icons.css')
 // require('../../assets/scss/slicknav.scss')
 require('../../assets/css/nivo-lightbox.css')
-require('../../assets/css/animate.css')
+// require('../../assets/css/animate.css')
 
 require('../../assets/scss/main.scss')
 require('../../assets/scss/responsive.scss')
@@ -77,9 +77,14 @@ const IndexPage = () => (
           </div>
           <div className="collapse navbar-collapse" id="main-navbar">
             <ul className="navbar-nav mr-auto w-100 justify-content-end">
-              <li className="nav-item active">
+              <li className="nav-item">
                 <a className="nav-link" href="#header-wrap">
                   Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#speakers">
+                  Speakers
                 </a>
               </li>
               <li className="nav-item">
@@ -88,15 +93,11 @@ const IndexPage = () => (
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#schedules">
-                  schedules
+                <a className="nav-link" href="#agenda">
+                  Agenda
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#team">
-                  Speakers
-                </a>
-              </li> */}
+              
               {/* <li className="nav-item">
                 <a className="nav-link" href="#gallery">
                   Gallery
@@ -140,25 +141,19 @@ const IndexPage = () => (
             <a className="page-scrool" href="#about">About</a>
           </li>
           <li>
-             <a className="page-scroll" href="#schedules">schedules</a>
+             <a className="page-scroll" href="#agenda">Agenda</a>
           </li>
           <li>
             <a className="page-scroll" href="#team">Speakers</a>
-          </li>
-          <li>
-            <a className="page-scroll" href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a className="page-scroll" href="#faq">Faq</a>
-          </li>
+          </li>          
           <li>
             <a className="page-scroll" href="#sponsors">Sponsors</a>
           </li>
           <li>
-            <a className="page-scroll" href="#pricing">tickets</a>
+            <a className="page-scroll" href="#pricing">Tickets</a>
           </li>
           <li>
-            <a className="page-scroll" href="#coc">coc</a>
+            <a className="page-scroll" href="#coc">COC</a>
           </li>
           <li>
             <a className="page-scroll" href="#google-map-area">Contact</a>
@@ -186,6 +181,17 @@ const IndexPage = () => (
           fontSize: '5rem',
           color: 'white'
         }}>GraphQL Hong Kong</h1>
+        <p style={{
+          color: 'white',
+          // color: '#e535ab',
+          // background: 'white',
+          fontSize: '1em',
+          width: 'max-content',
+          padding: '.5em',
+          margin: '0 auto'
+        }}>
+        29<sup>th</sup> September 2019
+        </p>
       </div>
       {/* <!-- Main Carousel Section Start --> */}
       {/* <Slideshow /> */}
@@ -237,7 +243,7 @@ const IndexPage = () => (
     {/* <!-- Header Area wrapper End --> */}
 
     {/* <!-- Coundown Section Start --> */}
-    <section className="countdown-timer section-padding">
+    {/* <section className="countdown-timer section-padding">
       <div className="container">
         <div className="row text-center">
           <div className="col-md-12 col-sm-12 col-xs-12">
@@ -264,8 +270,168 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     {/* <!-- Coundown Section End --> */}
+
+     {/* <!-- Team Section Start --> */}
+     <section style={{
+      
+    }} id="speakers" className="section-padding text-center">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="section-title-header text-center">
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Who's Speaking?</h1>
+              {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/carlos-rufo.jpg')} alt="Carlos Rufo" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Carlos Rufo</a></h3>
+                {/* <p>Product Designer, Tesla</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
+              <div className="team-img">
+                {/* <img className="img-fluid" src={require('../images/nader-dabit.jpg')} alt="" /> */}
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Nader Dabit</a></h3>
+                {/* <p>Front-end Developer, Dropbox</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/tobias-meixner.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Tobias Meixner</a></h3>
+                {/* <p>Lead Designer, TNW</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/uri-goldshtein.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Uri Goldshtein</a></h3>
+                {/* <p>Back-end Developer, ASUS</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/lucas-munhoz.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Lucas Munhoz</a></h3>
+                {/* <p>Full-stack Developer, Google</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/tanmai-gopal.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Tanmai Gopal</a></h3>
+                {/* <p>UI Designer, Apple</p> */}
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+        </div>
+        {/* <a href="speakers.html" className="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> */}
+      </div>
+    </section>
+    {/* <!-- Team Section End --> */}
 
      {/* <!-- Services Section Start --> */}
     <section id="intro" className="services section-padding">
@@ -274,7 +440,7 @@ const IndexPage = () => (
           <div className="col-12">
             <div className="section-title-header text-center">
               <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Why GraphQL Hong Kong?</h1>
-              <p className="wow fadeInDown" data-wow-delay="0.2s">1st local GraphQL Event in HK</p>
+              {/* <p className="wow fadeInDown" data-wow-delay="0.2s">1<sup>st</sup> local GraphQL event in HK</p> */}
             </div>
           </div>
         </div>
@@ -287,7 +453,7 @@ const IndexPage = () => (
               </div>
               <div className="services-content">
                 <h3><a href="#">Get Inspired</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>With talks from community members and companies from the GraphQL ecosystem.</p>
               </div>
             </div>
           </div>
@@ -295,11 +461,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div className="services-item wow fadeInDown" data-wow-delay="0.4s">
               <div className="icon">
-                <i className="lni-gallery"></i>
+                <i className="lni-user"></i>
               </div>
               <div className="services-content">
                 <h3><a href="#">Meet New Faces</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>At the first international GraphQL event in Hong Kong.</p>
               </div>
             </div>
           </div>
@@ -307,11 +473,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div className="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div className="icon">
-                <i className="lni-envelope"></i>
+                <i className="lni-mic"></i>
               </div>
               <div className="services-content">
                 <h3><a href="#">Fresh Tech Insights</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>Expect new announcements and launches at the event.</p>
               </div>
             </div>
           </div>
@@ -319,11 +485,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div className="services-item wow fadeInDown" data-wow-delay="0.8s">
               <div className="icon">
-                <i className="lni-cup"></i>
+                <i className="lni-users"></i>
               </div>
               <div className="services-content">
                 <h3><a href="#">Networking Session</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>Connect with people at the event to learn more about the people behind and in the GraphQL community.</p>
               </div>
             </div>
           </div>
@@ -331,11 +497,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div className="services-item wow fadeInDown" data-wow-delay="1s">
               <div className="icon">
-                <i className="lni-user"></i>
+                <i className="lni-world"></i>
               </div>
               <div className="services-content">
                 <h3><a href="#">Global Event</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>An event in the middle of Asia and an international city.</p>
               </div>
             </div>
           </div>
@@ -343,11 +509,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div className="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div className="icon">
-                <i className="lni-bubble"></i>
+                <i className="lni-tshirt"></i>
               </div>
               <div className="services-content">
                 <h3><a href="#">Free Swags</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetuer commodo ligula eget dolor.</p>
+                <p>Get your stickers and swags from our sponsors and partners.</p>
               </div>
             </div>
           </div>
@@ -446,13 +612,13 @@ const IndexPage = () => (
     {/* <!-- Counter Area End--> */}
 
     {/* <!-- Schedule Section Start --> */}
-    <section id="schedules" className="schedule section-padding">
+    <section id="agenda" className="schedule section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedule</h1>
-              <p className="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit, sed do eiusmod tempor</p>
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Agenda</h1>
+              {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit, sed do eiusmod tempor</p> */}
             </div>
           </div>
         </div>
@@ -481,19 +647,11 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
                         </div>                     
-                        <span className="time">13:00pm - 13:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
+                        <span className="time">12:30pm - 13:30pm</span>
+                        <h4>Registration</h4>                        
                       </div>
                     </div>
-                    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                   <div className="card">
                     <div id="headingTwo">
@@ -501,19 +659,11 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
                         </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>15 Free Productive Design Tools</h4>
-                        <h5 className="name">David Warner</h5>
+                        <span className="time">13:30pm - 13:45pm</span>
+                        <h4>Welcome</h4>
+                        <h5 className="name">Carlos Rufo &amp; Tobias Meixner</h5>
                       </div>
-                    </div>
-                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
+                    </div>                    
                   </div>
                   <div className="card">
                     <div id="headingThree">
@@ -521,258 +671,14 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
                         </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Getting Started With SketchApp</h4>
-                        <h5 className="name">David Warner</h5>
+                        <span className="time">13:45pm - 19:00pm</span>
+                        <h4>Talks to be announced soon!</h4>
+                        {/* <h5 className="name">David Warner</h5> */}
                       </div>
-                    </div>
-                    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
+                    </div>                    
                   </div>
                 </div>
-              </div>
-              <div className="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
-                <div id="accordion2">
-                  <div className="card">
-                    <div id="headingOne1">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseOne1" className="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingTwo2">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseTwo2" className="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-                <div id="accordion3">
-                  <div className="card">
-                    <div id="headingOne3">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseOne3" className="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingTwo3">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseTwo3" className="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingThree3">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseThree3" className="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-                <div id="accordion4">
-                  <div className="card">
-                    <div id="headingOne">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseOne4" aria-expanded="false" aria-controls="collapseOne4">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseOne4" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion4">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingTwo">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseTwo4" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion4">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingThree4">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseThree4" className="collapse" aria-labelledby="headingThree" data-parent="#accordion4">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-                <div id="accordion">
-                  <div className="card">
-                    <div id="headingOne">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingTwo">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div id="headingThree">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
-                        </div>                     
-                        <span className="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 className="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div className="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div className="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
@@ -780,165 +686,7 @@ const IndexPage = () => (
     </section>
     {/* <!-- Schedule Section End --> */}
 
-    {/* <!-- Team Section Start --> */}
-    <section style={{
-      display: 'none'
-    }} id="team" className="section-padding text-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Who's Speaking?</h1>
-              <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-01.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">JONATHON DOE</a></h3>
-                <p>Product Designer, Tesla</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-02.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Patric Green</a></h3>
-                <p>Front-end Developer, Dropbox</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-03.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Paul Kowalsy</a></h3>
-                <p>Lead Designer, TNW</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-04.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Jhon Doe</a></h3>
-                <p>Back-end Developer, ASUS</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-05.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Daryl Dixon</a></h3>
-                <p>Full-stack Developer, Google</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-              <div className="team-img">
-                <img className="img-fluid" src="assets/img/team/team-06.jpg" alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Chris Adams</a></h3>
-                <p>UI Designer, Apple</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-        </div>
-        <a href="speakers.html" className="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
-      </div>
-    </section>
-    {/* <!-- Team Section End --> */}
+   
 
     {/* <!-- Gallary Section Start --> */}
     <section style={{
@@ -1169,10 +917,10 @@ const IndexPage = () => (
               <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
             </div>
           </div>
-        </div>
-        <h2>Platinum</h2>
+        </div>        
         <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
           <div className="col-md-12 col-sm-12 col-xs-12">
+            <h2>Platinum</h2>
             <div className="spnsors-logo">
               <a href="https://aws.amazon.com/amplify/"><img style={{
                 width: '100px',
@@ -1182,8 +930,13 @@ const IndexPage = () => (
             </div>
           </div>                 
         </div>
-        <h2>Gold</h2>
         <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+        <div className="col-md-12 col-sm-12 col-xs-12">
+        <h3>We are still looking for sponsors and partners</h3>
+        </div>        
+        </div>
+        {/* <h2>Gold</h2> */}
+        {/* <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s"> */}
           {/* <div className="col-md-3 col-sm-3 col-xs-12">
             <div className="spnsors-logo">
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
@@ -1204,9 +957,9 @@ const IndexPage = () => (
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
             </div>
           </div>           */}
-        </div>
-        <h2>Silver</h2>
-        <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+        {/* </div> */}
+        {/* <h2>Silver</h2> */}
+        {/* <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s"> */}
           {/* <div className="col-md-3 col-sm-3 col-xs-12">
             <div className="spnsors-logo">
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
@@ -1227,9 +980,9 @@ const IndexPage = () => (
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
             </div>
           </div>           */}
-        </div>
-        <h2>Bronze</h2>
-        <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+        {/* </div> */}
+        {/* <h2>Bronze</h2> */}
+        {/* <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s"> */}
           {/* <div className="col-md-3 col-sm-3 col-xs-12">
             <div className="spnsors-logo">
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""/></a>
@@ -1250,11 +1003,37 @@ const IndexPage = () => (
               <a href="#"><img className="img-fluid" src="assets/img/sponsors/logo-04.png" alt=""/></a>
             </div>
           </div>           */}
-        </div>
+        {/* </div> */}
       </div>
       <div className="col-12 text-center">
-        <a href="#" className="btn btn-common">become a sponsor</a>
+        <a href="#contact-map" className="btn btn-common">Become a sponsor</a>
       </div>
+
+      <div style={{
+        marginTop: '5em'
+      }} className="col-12 text-center">
+        <h5>Partners</h5>  
+        <a href="https://www.graphql-asia.org/"><img style={{
+              width: '100px',
+              height: '100px',
+              objectFit: 'contain'
+        }} className="img-fluid" src={require('../images/GraphQL-Asia-Logo.png')} alt="GraphQL Asia"/></a>
+      </div>
+
+      
+      <div style={{
+        marginTop: '5em'
+      }} className="col-12 text-center">
+        <h5>Organised by</h5>
+        <div className="org-logo">
+            <a href="https://www.brikl.io/"><img style={{
+              width: '100px',
+              height: '100px',
+              objectFit: 'contain'
+            }} className="img-fluid" src={require('../images/BrikL.svg')} alt="BrikL"/></a>
+        </div>                    
+      </div>
+
     </section>
     {/* <!-- Sponsors Section End --> */}
 
@@ -1279,10 +1058,10 @@ const IndexPage = () => (
                 <i className="lni-layers"></i>
               </div>
               <div className="colmun-title">
-                <h5>Standard Pass</h5>
+                <h5>Standard Ticket</h5>
               </div>
               <div className="price">
-                <h2>$25</h2>
+                <h2>$30</h2>
                 <p>100 Tickets Available</p>
               </div>
               <div className="pricing-list">
@@ -1296,7 +1075,7 @@ const IndexPage = () => (
                   {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                 </ul>
               </div>
-              <a href="#" className="btn btn-common">Buy Ticket @ Eventbrite</a>
+              <a href="#" className="btn btn-common">Buy Ticket @ Townscript</a>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xa-12 mb-3">
@@ -1319,7 +1098,13 @@ const IndexPage = () => (
           </div>
           <div className="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
             <div className="video">
-              <img className="img-fluid" src="assets/img/about/about.jpg" alt="" />
+            <img style={{          
+              height: '200px',   
+              width: '200px',
+              objectFit: 'contain',
+              display: 'block',
+              margin: '0 auto'
+            }} src={require('../images/graphql-hongkong-logo.png')} alt="GraphQL Hong Kong Logo" />
             </div>
           </div>
           <div className="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
@@ -1484,7 +1269,7 @@ const IndexPage = () => (
                     </div>                    
                     <div className="col-md-12">
                       <div className="form-group">
-                        <textarea className="form-control" rows="4" id="message" name="message" required data-error="Write your message"></textarea>
+                        <textarea placeholder="Your message" className="form-control" rows="4" id="message" name="message" required data-error="Write your message"></textarea>
                       </div>
                       <div className="form-submit">
                         <button type="submit" className="btn btn-common" id="form-submit"><i className="fa fa-paper-plane" aria-hidden="true"></i>  Send Us Now</button>
@@ -1506,17 +1291,17 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
             <h3><img src="assets/img/logo.png" alt="" /></h3>
             <p>
-              Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt.
+              {/* Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt. */}
             </p>
           </div>
           <div className="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
             <h3>QUICK LINKS</h3>
             <ul>
-              <li><a href="#">About Conference</a></li>
+              <li><a href="#intro">About Conference</a></li>
               <li><a href="#">Our Speakers</a></li>
-              <li><a href="#">Event Shedule</a></li>
-              <li><a href="#">Latest News</a></li>
-              <li><a href="#">Event Photo Gallery</a></li>
+              <li><a href="#agenda">Event Schedule</a></li>
+              {/* <li><a href="#">Latest News</a></li> */}
+              {/* <li><a href="#">Event Photo Gallery</a></li> */}
             </ul>
           </div>
           <div className="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
