@@ -289,6 +289,226 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/tanmai-gopal.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Tanmai Gopal</a></h3>
+                <p>Founder, Hasura</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/nader-dabit.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Nader Dabit</a></h3>
+                <p>Developer Advocate, AWS</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/uri-goldshtein.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Uri Goldshtein</a></h3>
+                <p>Founder, The Guild</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/sidharta-chatterjee.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Sidharta Chatterjee</a></h3>
+                <p>Software Engineer, Gatsby</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/tanay-pratap.jpg')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Tanay Pratap</a></h3>
+                <p>Software Engineer, Microsoft</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/shruti-kapoor.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Shruti Kapoor</a></h3>
+                <p>Software Engineer, Paypal</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/lucas-munhoz.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Lucas Munhoz</a></h3>
+                <p>Software Engineer, Brikl</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Join us!</a></h3>
+                <p>Incredible Developer, Community</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="#">Join us!</a></h3>
+                <p>Incredible Developer, Community</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <div className="section-title-header text-center">
+              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Masters of ceremonies</h1>
+              {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
               <div className="team-img">
                 <img className="img-fluid" src={require('../images/carlos-rufo.jpg')} alt="Carlos Rufo" />
@@ -312,30 +532,6 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-              <div className="team-img">
-                {/* <img className="img-fluid" src={require('../images/nader-dabit.jpg')} alt="" /> */}
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Nader Dabit</a></h3>
-                {/* <p>Front-end Developer, Dropbox</p> */}
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
               <div className="team-img">
                 <img className="img-fluid" src={require('../images/tobias-meixner.jpg')} alt="" />
@@ -353,76 +549,6 @@ const IndexPage = () => (
               <div className="info-text">
                 <h3><a href="#">Tobias Meixner</a></h3>
                 {/* <p>Lead Designer, TNW</p> */}
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/uri-goldshtein.png')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Uri Goldshtein</a></h3>
-                {/* <p>Back-end Developer, ASUS</p> */}
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/lucas-munhoz.jpg')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Lucas Munhoz</a></h3>
-                {/* <p>Full-stack Developer, Google</p> */}
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/tanmai-gopal.jpg')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Tanmai Gopal</a></h3>
-                {/* <p>UI Designer, Apple</p> */}
               </div>
             </div>
             {/* <!-- Team Item Ends --> */}
