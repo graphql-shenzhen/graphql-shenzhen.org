@@ -65,7 +65,7 @@ const IndexPage = () => (
               <span className="icon-menu"></span>
               <span className="icon-menu"></span>
             </button>
-            <a href="index.html" className="navbar-brand">
+            <a href="#" className="navbar-brand">
             <img style={{          
               height: '40px',   
               width: '40px',
@@ -165,7 +165,7 @@ const IndexPage = () => (
       {/* <!-- Navbar End --> */}
 
       <div style={{
-        paddingTop: '35vh',
+        paddingTop: '32vh',
         height: '85vh',
         backgroundImage: `
         linear-gradient(
@@ -181,17 +181,31 @@ const IndexPage = () => (
           fontSize: '5rem',
           color: 'white'
         }}>GraphQL Hong Kong</h1>
+        <a href="#" className="navbar-brand">
+          <img style={{          
+            height: '100px',   
+            width: '100px',
+            objectFit: 'contain',
+            display: 'block',
+            margin: '0 auto'
+          }} src={require('../images/graphql-hongkong-logo.png')} alt="GraphQL Hong Kong Logo" />
+        </a>
         <p style={{
           color: 'white',
           // color: '#e535ab',
           // background: 'white',
-          fontSize: '1em',
+          fontSize: '1.5em',
           width: 'max-content',
           padding: '.5em',
           margin: '0 auto'
         }}>
-        29<sup>th</sup> September 2019
+        29<sup>th</sup> September, 2019 at TBD, Hong Kong
         </p>
+        <br/><br/>
+        <div className="col-12 text-center">
+          <a href="#" className="btn btn-common" style={{marginRight: 10}}>Buy Ticket @ Townscript</a>
+          <a href="https://drive.google.com/file/d/1xVLykE7Coc_xuAsn2y5Avq0UK4wN_qwk/view?usp=sharing" className="btn btn-common">Become a sponsor</a>
+        </div>
       </div>
       {/* <!-- Main Carousel Section Start --> */}
       {/* <Slideshow /> */}
@@ -295,16 +309,13 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/tanmaigo" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Tanmai Gopal</a></h3>
+                <h3><a href="https://twitter.com/tanmaigo" target="_blank">Tanmai Gopal</a></h3>
                 <p>Founder, Hasura</p>
               </div>
             </div>
@@ -318,16 +329,13 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/dabit3" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Nader Dabit</a></h3>
+                <h3><a href="https://twitter.com/dabit3" target="_blank">Nader Dabit</a></h3>
                 <p>Developer Advocate, AWS</p>
               </div>
             </div>
@@ -343,16 +351,13 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/UriGoldshtein" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Uri Goldshtein</a></h3>
+                <h3><a href="https://twitter.com/UriGoldshtein" target="_blank">Uri Goldshtein</a></h3>
                 <p>Founder, The Guild</p>
               </div>
             </div>
@@ -366,16 +371,13 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/chatsidhartha" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Sidharta Chatterjee</a></h3>
+                <h3><a href="https://twitter.com/chatsidhartha" target="_blank">Sidharta Chatterjee</a></h3>
                 <p>Software Engineer, Gatsby</p>
               </div>
             </div>
@@ -384,46 +386,40 @@ const IndexPage = () => (
 
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/tanay-pratap.jpg')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Tanay Pratap</a></h3>
-                <p>Software Engineer, Microsoft</p>
-              </div>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
               <div className="team-img">
                 <img className="img-fluid" src={require('../images/shruti-kapoor.png')} alt="" />
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/shrutikapoor08" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Shruti Kapoor</a></h3>
+                <h3><a href="https://twitter.com/shrutikapoor08" target="_blank">Shruti Kapoor</a></h3>
                 <p>Software Engineer, Paypal</p>
+              </div>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div className="team-img">
+                <img className="img-fluid" src={require('../images/tanay-pratap.png')} alt="" />
+                <div className="team-overlay">
+                  <div className="overlay-social-icon text-center">
+                    <ul className="social-icons">
+                      <li><a href="https://twitter.com/tanaypratap" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="info-text">
+                <h3><a href="https://twitter.com/tanaypratap" target="_blank">Tanay Pratap</a></h3>
+                <p>Software Engineer, Microsoft</p>
               </div>
             </div>
             {/* <!-- Team Item Ends --> */}
@@ -436,16 +432,13 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/lnmunhoz" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Lucas Munhoz</a></h3>
+                <h3><a href="https://twitter.com/lnmunhoz" target="_blank">Lucas Munhoz</a></h3>
                 <p>Software Engineer, Brikl</p>
               </div>
             </div>
@@ -459,10 +452,7 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
                       <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -482,10 +472,7 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
                       <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -498,6 +485,7 @@ const IndexPage = () => (
             {/* <!-- Team Item Ends --> */}
           </div>
         </div>
+        <br/><br/>
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
@@ -506,7 +494,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row justify-content-center align-items-center">
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
@@ -515,17 +503,14 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/swcarlosrj"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Carlos Rufo</a></h3>
-                {/* <p>Product Designer, Tesla</p> */}
+                <h3><a href="https://twitter.com/swcarlosrj">Carlos Rufo</a></h3>
+                <p>Co-Organizer, GraphQL Hong Kong</p>
               </div>
             </div>
             {/* <!-- Team Item Ends --> */}
@@ -538,17 +523,14 @@ const IndexPage = () => (
                 <div className="team-overlay">
                   <div className="overlay-social-icon text-center">
                     <ul className="social-icons">
-                      <li><a href="#"><i className="lni-facebook-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-linkedin-filled" aria-hidden="true"></i></a></li>
-                      <li><a href="#"><i className="lni-behance" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/meixnertobias"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="info-text">
-                <h3><a href="#">Tobias Meixner</a></h3>
-                {/* <p>Lead Designer, TNW</p> */}
+                <h3><a href="https://twitter.com/meixnertobias">Tobias Meixner</a></h3>
+                <p>Co-Organizer, GraphQL Hong Kong</p>
               </div>
             </div>
             {/* <!-- Team Item Ends --> */}
@@ -773,7 +755,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
                         </div>                     
-                        <span className="time">12:30pm - 13:30pm</span>
+                        <span className="time">12:00pm - 13:00pm</span>
                         <h4>Registration</h4>                        
                       </div>
                     </div>
@@ -785,7 +767,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
                         </div>                     
-                        <span className="time">13:30pm - 13:45pm</span>
+                        <span className="time">13:00pm - 13:30pm</span>
                         <h4>Welcome</h4>
                         <h5 className="name">Carlos Rufo &amp; Tobias Meixner</h5>
                       </div>
@@ -797,7 +779,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
                         </div>                     
-                        <span className="time">13:45pm - 19:00pm</span>
+                        <span className="time">13:30pm - 19:00pm</span>
                         <h4>Talks to be announced soon!</h4>
                         {/* <h5 className="name">David Warner</h5> */}
                       </div>
@@ -1040,7 +1022,7 @@ const IndexPage = () => (
           <div className="col-12">
             <div className="section-title-header text-center">
               <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsors</h1>
-              <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
+              <p className="wow fadeInDown" data-wow-delay="0.2s"></p>
             </div>
           </div>
         </div>        
@@ -1049,8 +1031,8 @@ const IndexPage = () => (
             <h2>Platinum</h2>
             <div className="spnsors-logo">
               <a href="https://aws.amazon.com/amplify/"><img style={{
-                width: '100px',
-                height: '100px',
+                width: '200px',
+                height: '200px',
                 objectFit: 'contain'
               }} className="img-fluid" src={require('../images/aws-amplify.png')} alt="AWS Amplify"/></a>
             </div>
@@ -1058,7 +1040,7 @@ const IndexPage = () => (
         </div>
         <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
         <div className="col-md-12 col-sm-12 col-xs-12">
-        <h3>We are still looking for sponsors and partners</h3>
+        <h3>We are looking for sponsors and partners</h3>
         </div>        
         </div>
         {/* <h2>Gold</h2> */}
@@ -1132,7 +1114,7 @@ const IndexPage = () => (
         {/* </div> */}
       </div>
       <div className="col-12 text-center">
-        <a href="#contact-map" className="btn btn-common">Become a sponsor</a>
+        <a href="https://drive.google.com/file/d/1xVLykE7Coc_xuAsn2y5Avq0UK4wN_qwk/view?usp=sharing" className="btn btn-common">Become a sponsor</a>
       </div>
 
       <div style={{
@@ -1187,7 +1169,7 @@ const IndexPage = () => (
                 <h5>Standard Ticket</h5>
               </div>
               <div className="price">
-                <h2>$30</h2>
+                <h2>HK$199</h2>
                 <p>100 Tickets Available</p>
               </div>
               <div className="pricing-list">
