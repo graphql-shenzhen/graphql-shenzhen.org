@@ -1363,7 +1363,10 @@ const IndexPage = () => (
           <div className="col-lg-7 col-md-12 col-xs-12">
             <div className="container-form wow fadeInLeft" data-wow-delay="0.2s">
               <div className="form-wrapper">
-                <form name="contact" method="POST" data-netlify="true" role="form" id="contactForm" data-toggle="validator">
+                <form action="thank-you" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" role="form" id="contactForm" data-toggle="validator">
+                <input name="bot-field" style={{
+                  display: "none"
+                }} />
                   <div className="row">
                     <div className="col-md-6 form-line">
                       <div className="form-group">
@@ -1472,6 +1475,8 @@ const IndexPage = () => (
     <a href="#" className="back-to-top">
     	<i className="lni-chevron-up"></i>
     </a>
+
+    <a href="/thank-you">&nbsp;</a>
 
   
   </Layout>
