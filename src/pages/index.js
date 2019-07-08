@@ -5,6 +5,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import { Slide } from 'react-slideshow-image';
 import Countdown from 'react-countdown-now';
+import Iframe from 'react-iframe'
 
 require('../../assets/css/bootstrap.min.css')
 require('../../assets/fonts/line-icons.css')
@@ -133,32 +134,19 @@ const IndexPage = () => (
         </div>
 
         {/* <!-- Mobile Menu Start --> */}
-        <ul className="mobile-menu">
+        {          
+          <ul className="mobile-menu">          
           <li>
-            <a className="page-scrool" href="#header-wrap">Home</a>
-          </li>
-          <li>
-            <a className="page-scrool" href="#about">About</a>
-          </li>
-          <li>
-             <a className="page-scroll" href="#agenda">Agenda</a>
-          </li>
-          <li>
-            <a className="page-scroll" href="#team">Speakers</a>
+            <a className="page-scrool" href="#speakers">Speakers</a>
           </li>          
           <li>
             <a className="page-scroll" href="#sponsors">Sponsors</a>
           </li>
           <li>
             <a className="page-scroll" href="#pricing">Tickets</a>
-          </li>
-          <li>
-            <a className="page-scroll" href="#coc">COC</a>
-          </li>
-          <li>
-            <a className="page-scroll" href="#google-map-area">Contact</a>
-          </li>
-        </ul>
+          </li>          
+        </ul>        
+        }        
         {/* <!-- Mobile Menu End --> */}
 
       </nav>
@@ -177,11 +165,8 @@ const IndexPage = () => (
         backgroundSize: 'cover',
         textAlign: 'center'
       }}>        
-        <h1 style={{          
-          fontSize: '5rem',
-          color: 'white'
-        }}>GraphQL Hong Kong</h1>
-        <a href="#" className="navbar-brand">
+        <h1 className="mainTitle">GraphQL Hong Kong</h1>
+        <div className="navbar-brand">
           <img style={{          
             height: '100px',   
             width: '100px',
@@ -189,7 +174,7 @@ const IndexPage = () => (
             display: 'block',
             margin: '0 auto'
           }} src={require('../images/graphql-hongkong-logo.png')} alt="GraphQL Hong Kong Logo" />
-        </a>
+        </div>
         <p style={{
           color: 'white',
           // color: '#e535ab',
@@ -199,11 +184,11 @@ const IndexPage = () => (
           padding: '.5em',
           margin: '0 auto'
         }}>
-        29<sup>th</sup> September, 2019 at TBD, Hong Kong
+        29<sup>th</sup> September, 2019 in Hong Kong
         </p>
         <br/><br/>
         <div className="col-12 text-center">
-          <a href="#" className="btn btn-common" style={{marginRight: 10}}>Buy Ticket @ Townscript</a>
+          <a href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Buy Tickets</a>
           <a href="https://drive.google.com/file/d/1xVLykE7Coc_xuAsn2y5Avq0UK4wN_qwk/view?usp=sharing" className="btn btn-common">Become a sponsor</a>
         </div>
       </div>
@@ -1169,7 +1154,7 @@ const IndexPage = () => (
                 <h5>Standard Ticket</h5>
               </div>
               <div className="price">
-                <h2>HK$199</h2>
+                <h2>HK$245</h2>
                 <p>100 Tickets Available</p>
               </div>
               <div className="pricing-list">
@@ -1183,7 +1168,7 @@ const IndexPage = () => (
                   {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                 </ul>
               </div>
-              <a href="#" className="btn btn-common">Buy Ticket @ Townscript</a>
+              <a href="#buy-tickets" className="btn btn-common">Buy now</a>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xa-12 mb-3">
@@ -1193,14 +1178,31 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Ticket Pricing Area End --> */}
-
+    <section id="buy-tickets" className="section-padding">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="section-title-header text-center">
+              <h2 className="section-title wow fadeInUp" data-wow-delay="0.2s">Buy tickets</h2>
+              <Iframe styles={{
+                border:'none'
+              }} url="https://l.oveit.com/events/embed?id=832f785449"
+                width="100%"
+                height="800px"                
+                className="ticketFrame"                
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     {/* <!-- Code of Conduct Section Start --> */}
     <section id="coc" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h1 className="section-title wow fadeInUp" data-wow-delay="0.2s">Code of Conduct</h1>
+              <h2 className="section-title wow fadeInUp" data-wow-delay="0.2s">Code of Conduct</h2>
               {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 // Preset Color Styles
 @import "colors/presets";
 
@@ -35,4 +34,13 @@
 // Shortcode
 @import "shortcode";
 
-
+.ticketFrame {
+  border: "none";
+}
+.mainTitle {
+  font-size: 5rem;
+  color: white;
+  @media (max-width: 1199px) {
+    font-size: 3rem;
+  }
+}
