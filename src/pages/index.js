@@ -1189,7 +1189,7 @@ const IndexPage = () => (
                 border:'none'
               }} url="https://l.oveit.com/events/embed?id=832f785449"
                 width="100%"
-                height="900px"                
+                height="350px"  
                 className="ticketFrame"                
               />
             </div>
@@ -1411,9 +1411,11 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
             <h3>QUICK LINKS</h3>
             <ul>
-              <li><a href="#intro">About Conference</a></li>
-              <li><a href="#">Our Speakers</a></li>
+              <li><a href="#speakers">Our Speakers</a></li>
+              <li><a href="#intro">About Conference</a></li>              
               <li><a href="#agenda">Event Schedule</a></li>
+              <li><a href="#sponsors">Our sponsors</a></li>
+              <li><a href="#pricing">Get tickets</a></li>
               {/* <li><a href="#">Latest News</a></li> */}
               {/* <li><a href="#">Event Photo Gallery</a></li> */}
             </ul>
@@ -1477,7 +1479,10 @@ const IndexPage = () => (
     	<i className="lni-chevron-up"></i>
     </a>
 
-    <a href="/thank-you">&nbsp;</a>
+    <a style={{
+      height: 0,
+      display: 'grid'
+    }} href="/thank-you">&nbsp;</a>
 
   
   </Layout>
