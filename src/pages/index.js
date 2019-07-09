@@ -52,7 +52,7 @@ const Slideshow = () => {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="GraphQL Hong Kong" />
     {/* <!-- Header Area wrapper Starts --> */}
     <header id="header-wrap">
       {/* <!-- Navbar Start --> */}
