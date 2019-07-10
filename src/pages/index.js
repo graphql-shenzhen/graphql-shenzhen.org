@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import { Slide } from 'react-slideshow-image';
 import Countdown from 'react-countdown-now';
 import Iframe from 'react-iframe'
+import { Helmet } from "react-helmet"
 
 require('../../assets/css/bootstrap.min.css')
 require('../../assets/fonts/line-icons.css')
@@ -53,6 +54,20 @@ const Slideshow = () => {
 const IndexPage = () => (
   <Layout>
     <SEO title="GraphQL Hong Kong" />
+      <Helmet>
+        <meta name="theme-color" content="#e535ab" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@GraphQLHongKong" />
+        <meta name="twitter:title" content="GraphQL Hong Kong - 29th, Sept" />
+        <meta
+          name="twitter:description"
+          content="Full-day GraphQL Conference on September 29th, 2019."
+        />
+        <meta
+          name="twitter:image"
+          content="https://pbs.twimg.com/profile_images/1142612455563988992/qj_AlqDx_400x400.png"
+        />
+      </Helmet>
     {/* <!-- Header Area wrapper Starts --> */}
     <header id="header-wrap">
       {/* <!-- Navbar Start --> */}
