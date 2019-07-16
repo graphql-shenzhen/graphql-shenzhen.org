@@ -53,9 +53,9 @@ const Slideshow = () => {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="GraphQL Hong Kong" />
+    <SEO title="Home" />
       <Helmet>
-      <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@GraphQLHongKong"/>
         <meta name="twitter:title" content="GraphQL Hong Kong 2019"/>
         <meta name="twitter:description" content="A one-day conference on Sept, 29th by & for the GraphQL community"/>
