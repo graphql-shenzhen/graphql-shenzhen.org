@@ -55,17 +55,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="GraphQL Hong Kong" />
       <Helmet>
-        <meta name="theme-color" content="#e535ab" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@GraphQLHongKong" />
-        <meta name="twitter:title" content="GraphQL Hong Kong - 29th, Sept" />
-        <meta
-          name="twitter:description"
-          content="Full-day GraphQL Conference on September 29th, 2019."
-        />
-        <meta
-          name="twitter:image"
-          content="https://pbs.twimg.com/profile_images/1142612455563988992/qj_AlqDx_400x400.png"
+      <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@GraphQLHongKong"/>
+        <meta name="twitter:title" content="GraphQL Hong Kong 2019"/>
+        <meta name="twitter:description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta name="twitter:image" content="https://graphql-hongkong.org/static/graphql-hongkong-logo.png"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site" content="@GraphQLHongKong"/>
+        <meta property="og:title" content="GraphQL Hong Kong 2019"/>
+        <meta property="og:description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta property="og:image" content="https://graphql-hongkong.org/static/graphql-hongkong-logo.png"/>
+        <meta property="og:image:url" content="https://graphql-hongkong.org/static/graphql-hongkong-logo.png"/>
+        <meta name="description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta name="keywords" content="GraphQL,2019,conference,Asia,HongKong"/>
+        <meta property="og:url" content="https://graphql-hongkong.org/"/>
         />
       </Helmet>
     {/* <!-- Header Area wrapper Starts --> */}
