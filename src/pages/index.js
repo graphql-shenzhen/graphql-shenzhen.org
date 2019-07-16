@@ -58,15 +58,15 @@ const IndexPage = () => (
       <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@GraphQLHongKong"/>
         <meta name="twitter:title" content="GraphQL Hong Kong 2019"/>
-        <meta name="twitter:description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta name="twitter:description" content="A one-day conference on Sept, 29th by & for the GraphQL community"/>
         <meta name="twitter:image" content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"/>
         <meta property="og:type" content="website"/>
         <meta property="og:site" content="@GraphQLHongKong"/>
         <meta property="og:title" content="GraphQL Hong Kong 2019"/>
-        <meta property="og:description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta property="og:description" content="A one-day conference on Sept, 29th by & for the GraphQL community"/>
         <meta property="og:image" content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"/>
         <meta property="og:image:url" content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"/>
-        <meta name="description" content="Full-day GraphQL Conference on September 29th, 2019."/>
+        <meta name="description" content="A one-day conference on Sept, 29th by & for the GraphQL community"/>
         <meta name="keywords" content="GraphQL,2019,conference,Asia,HongKong"/>
         <meta property="og:url" content="https://graphql-hongkong.org/"/>
         />
