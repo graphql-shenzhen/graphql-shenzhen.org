@@ -69,7 +69,6 @@ const IndexPage = () => (
         <meta name="description" content="A one-day conference on Sept, 29th by & for the GraphQL community"/>
         <meta name="keywords" content="GraphQL,2019,conference,Asia,HongKong"/>
         <meta property="og:url" content="https://graphql-hongkong.org/"/>
-        />
       </Helmet>
     {/* <!-- Header Area wrapper Starts --> */}
     <header id="header-wrap">
@@ -535,7 +534,7 @@ const IndexPage = () => (
                 </div>
                 <div className="info-text">
                   <h3><a href="https://twitter.com/swcarlosrj">Carlos Rufo</a></h3>
-                  <p>Co-Organizer, GraphQL Hong Kong</p>
+                  <p>Organizer, GraphQL Hong Kong</p>
                 </div>
               </a>
             </div>
