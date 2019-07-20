@@ -290,9 +290,8 @@ const IndexPage = () => (
     {/* <!-- Coundown Section End --> */}
 
      {/* <!-- Team Section Start --> */}
-     <section style={{
-      
-    }} id="speakers" className="section-padding text-center">
+     <div id="speakers" style={{ marginBottom: 40 }}></div>
+     <section id="speakers"  className="section-padding text-center">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -445,20 +444,22 @@ const IndexPage = () => (
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                    </ul>
+              <a href="mailto:info@graphql-hongkong.org">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Join us!</a></h3>
-                <p>Underrepresented Folk, Community</p>
-              </div>
+                <div className="info-text">
+                  <h3><a href="mailto:info@graphql-hongkong.org">Join us!</a></h3>
+                  <p>Underrepresented Folk, Community</p>
+                </div>
+              </a>  
             </div>
             {/* <!-- Team Item Ends --> */}
           </div>
@@ -489,20 +490,22 @@ const IndexPage = () => (
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <div className="team-img">
-                <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
-                <div className="team-overlay">
-                  <div className="overlay-social-icon text-center">
-                    <ul className="social-icons">
-                      <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                    </ul>
+              <a href="mailto:info@graphql-hongkong.org">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="info-text">
-                <h3><a href="#">Join us!</a></h3>
-                <p>First time speaker, Community</p>
-              </div>
+                <div className="info-text">
+                  <h3><a href="#">Join us!</a></h3>
+                  <p>First time speaker, Community</p>
+                </div>
+              </a>  
             </div>
             {/* <!-- Team Item Ends --> */}
           </div>
@@ -569,6 +572,7 @@ const IndexPage = () => (
     {/* <!-- Team Section End --> */}
 
      {/* <!-- Services Section Start --> */}
+    <div id="intro" style={{ marginBottom: 40 }}></div>
     <section id="intro" className="services section-padding">
       <div className="container">
         <div className="row">
@@ -747,6 +751,7 @@ const IndexPage = () => (
     {/* <!-- Counter Area End--> */}
 
     {/* <!-- Schedule Section Start --> */}
+    <div id="agenda" style={{ marginBottom: 40 }}></div>
     <section id="agenda" className="schedule section-padding">
       <div className="container">
         <div className="row">
@@ -1041,9 +1046,8 @@ const IndexPage = () => (
     {/* <!-- Ask Question Section End --> */}
 
     {/* <!-- Sponsors Section Start --> */}
-    <section style={{
-      
-    }} id="sponsors" className="section-padding">
+    <div id="sponsors" style={{ marginBottom: 40 }}></div>
+    <section id="sponsors" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -1166,6 +1170,7 @@ const IndexPage = () => (
     {/* <!-- Sponsors Section End --> */}
 
     {/* <!-- Ticket Pricing Area Start --> */}
+    <div id="pricing" style={{ marginBottom: 40 }}></div>
     <section id="pricing" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1213,6 +1218,7 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Ticket Pricing Area End --> */}
+    <div id="buy-tickets" style={{ marginBottom: 40 }}></div>
     <section id="buy-tickets" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1233,6 +1239,7 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Code of Conduct Section Start --> */}
+    <div id="coc" style={{ marginBottom: 40 }}></div>
     <section id="coc" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1387,6 +1394,7 @@ const IndexPage = () => (
     {/* <!-- Map Section End --> */}
 
     {/* <!-- Contact Us Section --> */}
+    <div id="contact-map" style={{ marginBottom: 40 }}></div>
     <section id="contact-map" className="section-padding">
       <div className="container">
         <div className="row justify-content-center">
