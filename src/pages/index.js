@@ -290,7 +290,7 @@ const IndexPage = () => (
     {/* <!-- Coundown Section End --> */}
 
      {/* <!-- Team Section Start --> */}
-     <div id="speakers" style={{ marginBottom: 40 }}></div>
+     <div id="speakers" style={{ paddingBottom: 40 }}></div>
      <section id="speakers"  className="section-padding text-center">
       <div className="container">
         <div className="row">
@@ -572,7 +572,7 @@ const IndexPage = () => (
     {/* <!-- Team Section End --> */}
 
      {/* <!-- Services Section Start --> */}
-    <div id="intro" style={{ marginBottom: 40 }}></div>
+    <div id="intro" style={{ paddingBottom: 40 }}></div>
     <section id="intro" className="services section-padding">
       <div className="container">
         <div className="row">
@@ -751,7 +751,7 @@ const IndexPage = () => (
     {/* <!-- Counter Area End--> */}
 
     {/* <!-- Schedule Section Start --> */}
-    <div id="agenda" style={{ marginBottom: 40 }}></div>
+    <div id="agenda" style={{ paddingBottom: 40 }}></div>
     <section id="agenda" className="schedule section-padding">
       <div className="container">
         <div className="row">
@@ -1046,7 +1046,7 @@ const IndexPage = () => (
     {/* <!-- Ask Question Section End --> */}
 
     {/* <!-- Sponsors Section Start --> */}
-    <div id="sponsors" style={{ marginBottom: 40 }}></div>
+    <div id="sponsors" style={{ paddingBottom: 40 }}></div>
     <section id="sponsors" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1144,7 +1144,7 @@ const IndexPage = () => (
       <div style={{
         marginTop: '5em'
       }} className="col-12 text-center">
-        <h5 style={{marginBottom: 30}}>Partners</h5>
+        <h5 style={{paddingBottom: 30}}>Partners</h5>
         <a href="https://www.graphql-asia.org/"><img style={{
               width: '100px',
               height: '100px',
@@ -1170,7 +1170,7 @@ const IndexPage = () => (
     {/* <!-- Sponsors Section End --> */}
 
     {/* <!-- Ticket Pricing Area Start --> */}
-    <div id="pricing" style={{ marginBottom: 40 }}></div>
+    <div id="pricing" style={{ paddingBottom: 40 }}></div>
     <section id="pricing" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1218,7 +1218,7 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Ticket Pricing Area End --> */}
-    <div id="buy-tickets" style={{ marginBottom: 40 }}></div>
+    <div id="buy-tickets" style={{ paddingBottom: 40 }}></div>
     <section id="buy-tickets" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1239,7 +1239,7 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Code of Conduct Section Start --> */}
-    <div id="coc" style={{ marginBottom: 40 }}></div>
+    <div id="coc" style={{ paddingBottom: 40 }}></div>
     <section id="coc" className="section-padding">
       <div className="container">
         <div className="row">
@@ -1394,7 +1394,7 @@ const IndexPage = () => (
     {/* <!-- Map Section End --> */}
 
     {/* <!-- Contact Us Section --> */}
-    <div id="contact-map" style={{ marginBottom: 40 }}></div>
+    <div id="contact-map" style={{ paddingBottom: 40 }}></div>
     <section id="contact-map" className="section-padding">
       <div className="container">
         <div className="row justify-content-center">
