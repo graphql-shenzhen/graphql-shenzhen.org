@@ -303,28 +303,7 @@ const IndexPage = () => (
         </div>
         <div className="row">
 
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-              <a href="https://twitter.com/UriGoldshtein" target="_blank">
-                <div className="team-img">
-                  <img className="img-fluid" src={require('../images/uri-goldshtein.jpg')} alt="" />
-                  <div className="team-overlay">
-                    <div className="overlay-social-icon text-center">
-                      <ul className="social-icons">
-                        <li><a href="https://twitter.com/UriGoldshtein" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="info-text">
-                  <h3><a href="https://twitter.com/UriGoldshtein" target="_blank">Uri Goldshtein</a></h3>
-                  <p>Founder, The Guild</p>
-                </div>
-              </a>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
+
 
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
@@ -351,6 +330,29 @@ const IndexPage = () => (
 
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <a href="https://twitter.com/shrutikapoor08" target="_blank">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/shruti-kapoor.png')} alt="" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="https://twitter.com/shrutikapoor08" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="info-text">
+                  <h3><a href="https://twitter.com/shrutikapoor08" target="_blank">Shruti Kapoor</a></h3>
+                  <p>Software Engineer, Paypal</p>
+                </div>
+              </a>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
               <a href="https://twitter.com/Tirumarai" target="_blank">
                 <div className="team-img">
@@ -365,7 +367,30 @@ const IndexPage = () => (
                 </div>
                 <div className="info-text">
                   <h3><a href="https://twitter.com/Tirumarai" target="_blank">Tirumarai Selvan</a></h3>
-                  <p>Serverless Project Manager, Hasura</p>
+                  <p>Serverless Manager, Hasura</p>
+                </div>
+              </a>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <a href="https://twitter.com/UriGoldshtein" target="_blank">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/uri-goldshtein.jpg')} alt="" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="https://twitter.com/UriGoldshtein" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="info-text">
+                  <h3><a href="https://twitter.com/UriGoldshtein" target="_blank">Uri Goldshtein</a></h3>
+                  <p>Founder, The Guild</p>
                 </div>
               </a>
             </div>
@@ -397,23 +422,23 @@ const IndexPage = () => (
 
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-              <a href="https://twitter.com/shrutikapoor08" target="_blank">
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <a href="https://twitter.com/VoodooLawz" target="_blank">
                 <div className="team-img">
-                  <img className="img-fluid" src={require('../images/shruti-kapoor.png')} alt="" />
+                  <img className="img-fluid" src={require('../images/laura-ambrose.jpg')} alt="" />
                   <div className="team-overlay">
                     <div className="overlay-social-icon text-center">
                       <ul className="social-icons">
-                        <li><a href="https://twitter.com/shrutikapoor08" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/VoodooLawz" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div className="info-text">
-                  <h3><a href="https://twitter.com/shrutikapoor08" target="_blank">Shruti Kapoor</a></h3>
-                  <p>Software Engineer, Paypal</p>
+                <h3><a href="https://twitter.com/VoodooLawz" target="_blank">Laura Ambrose</a></h3>
+                  <p>Front End Developer, KintoHub</p>
                 </div>
-              </a>
+              </a>  
             </div>
             {/* <!-- Team Item Ends --> */}
           </div>
@@ -456,8 +481,8 @@ const IndexPage = () => (
                   </div>
                 </div>
                 <div className="info-text">
-                  <h3><a href="mailto:info@graphql-hongkong.org">Join us!</a></h3>
-                  <p>Underrepresented Folk, Community</p>
+                  <h3><a href="#">Join us!</a></h3>
+                  <p>First time speaker, Community</p>
                 </div>
               </a>  
             </div>
@@ -483,29 +508,6 @@ const IndexPage = () => (
                   <p>Software Engineer, Brikl</p>
                 </div>
               </a>
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <a href="mailto:info@graphql-hongkong.org">
-                <div className="team-img">
-                  <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
-                  <div className="team-overlay">
-                    <div className="overlay-social-icon text-center">
-                      <ul className="social-icons">
-                        <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="info-text">
-                  <h3><a href="#">Join us!</a></h3>
-                  <p>First time speaker, Community</p>
-                </div>
-              </a>  
             </div>
             {/* <!-- Team Item Ends --> */}
           </div>
