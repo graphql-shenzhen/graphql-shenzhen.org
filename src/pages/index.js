@@ -526,6 +526,28 @@ const IndexPage = () => (
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+              <a href="https://twitter.com/codingcoop">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/joseph-cooper.png')} alt="Joseph Cooper" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="https://twitter.com/codingcoop"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="info-text">
+                  <h3><a href="https://twitter.com/codingcoop">Joseph Cooper</a></h3>
+                  <p>Founder & CEO, KintoHub</p>
+                </div>
+              </a>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
               <a href="https://twitter.com/swcarlosrj">
                 <div className="team-img">
                   <img className="img-fluid" src={require('../images/carlos-rufo.jpg')} alt="Carlos Rufo" />
@@ -561,7 +583,7 @@ const IndexPage = () => (
                 </div>
                 <div className="info-text">
                   <h3><a href="https://twitter.com/meixnertobias">Tobias Meixner</a></h3>
-                  <p>Co-Organizer, GraphQL Hong Kong</p>
+                  <p>Co-Founder & CTO, BrikL</p>
                 </div>
               </a>
             </div>
@@ -803,7 +825,7 @@ const IndexPage = () => (
                         </div>                     
                         <span className="time">13:00pm - 13:30pm</span>
                         <h4>Welcome</h4>
-                        <h5 className="name">Carlos Rufo &amp; Tobias Meixner</h5>
+                        <h5 className="name">Joseph Cooper, Carlos Rufo &amp; Tobias Meixner</h5>
                       </div>
                     </div>                    
                   </div>
@@ -1146,7 +1168,7 @@ const IndexPage = () => (
       <div style={{
         marginTop: '5em'
       }} className="col-12 text-center">
-        <h5 style={{paddingBottom: 30}}>Partners</h5>
+        <h3 style={{paddingBottom: 30}}>Partners</h3>
         <a href="https://www.graphql-asia.org/"><img style={{
               width: '100px',
               height: '100px',
@@ -1158,12 +1180,19 @@ const IndexPage = () => (
       <div style={{
         marginTop: '5em'
       }} className="col-12 text-center">
-        <h5>Organised by</h5>
+        <h3>Organised by</h3>
         <div className="org-logo">
-            <a href="https://www.brikl.io/"><img style={{
-              width: '100px',
-              height: '100px',
-              objectFit: 'contain'
+            <a href="https://kintohub.com/" target="_blank"><img style={{
+              width: '300px',
+              height: '200px',
+              objectFit: 'contain',
+              margin: '0 10px'
+            }} className="img-fluid" src={require('../images/kintohub.png')} alt="KintoHub"/></a>
+            <a href="https://www.brikl.io/" target="_blank"><img style={{
+              width: '300px',
+              height: '200px',
+              objectFit: 'contain',
+              margin: '0 10px'
             }} className="img-fluid" src={require('../images/BrikL.svg')} alt="BrikL"/></a>
         </div>                    
       </div>
