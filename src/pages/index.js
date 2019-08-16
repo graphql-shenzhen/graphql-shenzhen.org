@@ -110,11 +110,11 @@ const IndexPage = () => (
                   About
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#agenda">
                   Agenda
                 </a>
-              </li>
+              </li> */}
               
               {/* <li className="nav-item">
                 <a className="nav-link" href="#gallery">
@@ -201,11 +201,11 @@ const IndexPage = () => (
           padding: '.5em',
           margin: '0 auto'
         }}>
-        29<sup>th</sup> September, 2019 in Hong Kong
+        29-30<sup>th</sup> September, 2019 in Hong Kong
         </p>
         <br/><br/>
         <div className="col-12 text-center">
-          <a href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Buy Tickets</a>
+          {/* <button disabled href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Buy Tickets</button> */}
           <a href="https://drive.google.com/open?id=142I7_ANRwxX40PG7ryLwJ5e30Ey_i0p5" target="_blank" className="btn btn-common">Become a sponsor</a>
         </div>
       </div>
@@ -749,8 +749,8 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div className="counter wow fadeInRight" data-wow-delay="0.6s">
               <div className="icon"><i className="lni-timer"></i></div>
-              <p>September 29th, 2019</p>
-              <span>13:00pm – 19:00pm</span>
+              <p>September 29-30th, 2019</p>
+              <span>10:00am – 18:00pm</span>
             </div>
           </div>
           {/* <!-- Counter Item --> */}
@@ -774,7 +774,7 @@ const IndexPage = () => (
     </section>
     {/* <!-- Counter Area End--> */}
 
-    {/* <!-- Schedule Section Start --> */}
+    {/* <!-- Schedule Section Start -->
     <div id="agenda" style={{ paddingBottom: 40 }}></div>
     <section id="agenda" className="schedule section-padding">
       <div className="container">
@@ -837,7 +837,6 @@ const IndexPage = () => (
                         </div>                     
                         <span className="time">13:30pm - 19:00pm</span>
                         <h4>Talks to be announced soon!</h4>
-                        {/* <h5 className="name">David Warner</h5> */}
                       </div>
                     </div>                    
                   </div>
@@ -1239,7 +1238,7 @@ const IndexPage = () => (
                   {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                 </ul>
               </div>
-              <a href="#buy-tickets" className="btn btn-common">Buy now</a>
+              <button disabled href="#buy-tickets" className="btn btn-common">Available soon!</button>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xa-12 mb-3">
@@ -1248,7 +1247,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    {/* <!-- Ticket Pricing Area End --> */}
+    {/* <!-- Ticket Pricing Area End --> 
     <div id="buy-tickets" style={{ paddingBottom: 40 }}></div>
     <section id="buy-tickets" className="section-padding">
       <div className="container">
