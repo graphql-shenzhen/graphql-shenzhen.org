@@ -1167,12 +1167,19 @@ const IndexPage = () => (
       <div style={{
         marginTop: '5em'
       }} className="col-12 text-center">
-        <h3 style={{paddingBottom: 30}}>Partners</h3>
-        <a href="https://www.graphql-asia.org/"><img style={{
-              width: '100px',
-              height: '100px',
-              objectFit: 'contain'
+        <h3>Partners</h3>
+        <a href="https://www.graphql-asia.org/" target="_blank"><img style={{
+              width: '150px',
+              height: '150px',
+              objectFit: 'contain',
+              margin: "0 10px"
         }} className="img-fluid" src={require('../images/GraphQL-Asia-Logo.png')} alt="GraphQL Asia"/></a>
+        <a href="https://2019.jsdc.tw" target="_blank"><img style={{
+              width: '300px',
+              height: '300px',
+              objectFit: 'contain',
+              margin: "0 10px"
+        }} className="img-fluid" src={require('../images/JSDC-2019.png')} alt="JSDC 2019"/></a>
       </div>
 
       
