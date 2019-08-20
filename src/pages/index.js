@@ -201,7 +201,7 @@ const IndexPage = () => (
           padding: '.5em',
           margin: '0 auto'
         }}>
-        29-30<sup>th</sup> September, 2019 in Hong Kong
+        29<sup>th</sup> September, 2019 in Hong Kong
         </p>
         <br/><br/>
         <div className="col-12 text-center">
@@ -749,7 +749,7 @@ const IndexPage = () => (
           <div className="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div className="counter wow fadeInRight" data-wow-delay="0.6s">
               <div className="icon"><i className="lni-timer"></i></div>
-              <p>September 29-30th, 2019</p>
+              <p>September 29th, 2019</p>
               <span>10:00am – 18:00pm</span>
             </div>
           </div>
