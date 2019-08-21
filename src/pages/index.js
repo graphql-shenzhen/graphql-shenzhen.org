@@ -205,7 +205,7 @@ const IndexPage = () => (
         </p>
         <br/><br/>
         <div className="col-12 text-center">
-          {/* <button disabled href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Buy Tickets</button> */}
+          <a href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Get Tickets</a>
           <a href="https://drive.google.com/open?id=142I7_ANRwxX40PG7ryLwJ5e30Ey_i0p5" target="_blank" className="btn btn-common">Become a sponsor</a>
         </div>
       </div>
@@ -492,20 +492,20 @@ const IndexPage = () => (
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <a href="https://twitter.com/lnmunhoz" target="_blank">
+              <a href="https://twitter.com/thorwebdev" target="_blank">
                 <div className="team-img">
-                  <img className="img-fluid" src={require('../images/lucas-munhoz.png')} alt="" />
+                  <img className="img-fluid" src={require('../images/thor-schaeff.png')} alt="" />
                   <div className="team-overlay">
                     <div className="overlay-social-icon text-center">
                       <ul className="social-icons">
-                        <li><a href="https://twitter.com/lnmunhoz" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/thorwebdev" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div className="info-text">
-                  <h3><a href="https://twitter.com/lnmunhoz" target="_blank">Lucas Munhoz</a></h3>
-                  <p>Software Engineer, Brikl</p>
+                  <h3><a href="https://twitter.com/thorwebdev" target="_blank">Thor Schaeff</a></h3>
+                  <p>Developer Advocate, Stripe</p>
                 </div>
               </a>
             </div>
@@ -1245,7 +1245,7 @@ const IndexPage = () => (
                   {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                 </ul>
               </div>
-              <button disabled href="#buy-tickets" className="btn btn-common">Available soon!</button>
+              <a href="#buy-tickets" className="btn btn-common">Get it now!</a>
             </div>
           </div>
           <div className="col-lg-4 col-sm-6 col-xa-12 mb-3">
@@ -1254,14 +1254,14 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    {/* <!-- Ticket Pricing Area End --> 
+    {/* <!-- Ticket Pricing Area End --> */}
     <div id="buy-tickets" style={{ paddingBottom: 40 }}></div>
     <section id="buy-tickets" className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="section-title-header text-center">
-              <h2 className="section-title wow fadeInUp" data-wow-delay="0.2s">Buy tickets</h2>
+              <h2 className="section-title wow fadeInUp" data-wow-delay="0.2s">Tickets</h2>
               <p className="wow fadeInDown" data-wow-delay="0.2s"></p>
               <Iframe styles={{
                 border:'none'
