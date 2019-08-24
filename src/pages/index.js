@@ -67,7 +67,7 @@ const IndexPage = () => (
         <meta property="og:image" content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"/>
         <meta property="og:image:url" content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"/>
         <meta name="description" content="A one-day conference on Sept, 30th by & for the GraphQL community"/>
-        <meta name="keywords" content="GraphQL,2019,conference,Asia,HongKong"/>
+        <meta name="keywords" content="GraphQL,2019,conference,Asia,HongKong,GraphQLHongKong"/>
         <meta property="og:url" content="https://graphql-hongkong.org/"/>
       </Helmet>
     {/* <!-- Header Area wrapper Starts --> */}
