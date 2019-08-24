@@ -484,29 +484,6 @@ const IndexPage = () => (
           <div className="col-sm-6 col-md-6 col-lg-4">
             {/* <!-- Team Item Starts --> */}
             <div className="team-item wow fadeInUp" data-wow-delay="1s">
-              <a href="mailto:info@graphql-hongkong.org">
-                <div className="team-img">
-                  <img className="img-fluid" src={require('../images/profile-picture.png')} alt="" />
-                  <div className="team-overlay">
-                    <div className="overlay-social-icon text-center">
-                      <ul className="social-icons">
-                        <li><a href="#"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="info-text">
-                  <h3><a href="#">Join us!</a></h3>
-                  <p>First time speaker, Community</p>
-                </div>
-              </a>  
-            </div>
-            {/* <!-- Team Item Ends --> */}
-          </div>
-
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            {/* <!-- Team Item Starts --> */}
-            <div className="team-item wow fadeInUp" data-wow-delay="1s">
               <a href="https://twitter.com/chatsidhartha" target="_blank">
                 <div className="team-img">
                   <img className="img-fluid" src={require('../images/sidharta-chatterjee.jpg')} alt="" />
@@ -521,6 +498,29 @@ const IndexPage = () => (
                 <div className="info-text">
                   <h3><a href="https://twitter.com/chatsidhartha" target="_blank">Sidharta Chatterjee</a></h3>
                   <p>Software Engineer, Gatsby</p>
+                </div>
+              </a>
+            </div>
+            {/* <!-- Team Item Ends --> */}
+          </div>
+
+          <div className="col-sm-6 col-md-6 col-lg-4">
+            {/* <!-- Team Item Starts --> */}
+            <div className="team-item wow fadeInUp" data-wow-delay="1s">
+              <a href="https://twitter.com/lnmunhoz" target="_blank">
+                <div className="team-img">
+                  <img className="img-fluid" src={require('../images/lucas-munhoz.png')} alt="" />
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
+                        <li><a href="https://twitter.com/lnmunhoz" target="_blank"><i className="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="info-text">
+                  <h3><a href="https://twitter.com/lnmunhoz" target="_blank">Lucas Munhoz</a></h3>
+                  <p>Software Engineer, BrikL</p>
                 </div>
               </a>
             </div>
