@@ -110,11 +110,11 @@ const IndexPage = () => (
                   About
                 </a>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <a className="nav-link" href="#agenda">
                   Agenda
                 </a>
-              </li> */}
+              </li>
               
               {/* <li className="nav-item">
                 <a className="nav-link" href="#gallery">
@@ -162,7 +162,7 @@ const IndexPage = () => (
             <a className="page-scrool" href="#speakers">Speakers</a>
           </li>          
           <li>
-            <a className="page-scroll" href="#sponsors">Sponsors</a>
+            <a className="page-scroll" href="#agenda">Agenda</a>
           </li>
           <li>
             <a className="page-scroll" href="#pricing">Tickets</a>
@@ -790,7 +790,7 @@ const IndexPage = () => (
     </section>
     {/* <!-- Counter Area End--> */}
 
-    {/* <!-- Schedule Section Start -->
+    {/* <!-- Schedule Section Start --> */}
     <div id="agenda" style={{ paddingBottom: 40 }}></div>
     <section id="agenda" className="schedule section-padding">
       <div className="container">
@@ -807,9 +807,9 @@ const IndexPage = () => (
             <div className="table-responsive">
               <ul className="nav nav-tabs" id="myTab" role="tablist">
                 <li className="nav-item">
-                  <a className="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
+                  <a className="nav-link active" id="monday-tab" data-toggle="tab" role="tab" aria-controls="monday" aria-expanded="true">
                     <div className="item-text">
-                      <h4>Sunday</h4>
+                      <h4>Monday</h4>
                       <h5>30th September</h5>
                     </div>
                   </a>
@@ -822,26 +822,62 @@ const IndexPage = () => (
               <div className="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
                 <div id="accordion">
                   <div className="card">
-                    <div id="headingOne">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <div id="headingTwo">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="" />
+                          <img className="img-fluid" width={60} style={{borderRadius: 0}} src={require('../images/graphql-hongkong-logo.png')} alt="" />
                         </div>                     
-                        <span className="time">12:00pm - 13:00pm</span>
-                        <h4>Registration</h4>                        
+                        <span className="time">10:00am - 11:00am</span>
+                        <h4>Registration</h4>
+                        <h5 className="name">Get ready meeting new folks & enjoying coffee/tea</h5>
                       </div>
-                    </div>
-                    
+                    </div>                    
                   </div>
                   <div className="card">
                     <div id="headingTwo">
                       <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
+                          <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
                         </div>                     
-                        <span className="time">13:00pm - 13:30pm</span>
-                        <h4>Welcome</h4>
+                        <span className="time">11:00am - 11:30am</span>
+                        <h4>Welcome & Intro</h4>
                         <h5 className="name">Joseph Cooper, Carlos Rufo &amp; Tobias Meixner</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/nader-dabit.jpg')} alt="" />
+                        </div>                     
+                        <span className="time">11:30am - 12:00pm</span>
+                        <h4>Infrastructure as Code - Building APIs with GraphQL Transform</h4>
+                        <h5 className="name">Nader Dabit - Developer Advocate, AWS</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/shruti-kapoor.png')} alt="" />
+                        </div>                     
+                        <span className="time">12:00pm - 12:30pm</span>
+                        <h4>GraphQL & State Management with React Hooks</h4>
+                        <h5 className="name">Shruti Kapoor - Software Engineer, Paypal</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/tirumarai-selvan.png')} alt="" />
+                        </div>                     
+                        <span className="time">12:30am - 1:00pm</span>
+                        <h4>Cloud native GraphQL: Making GraphQL work in a Microservices Architecture</h4>
+                        <h5 className="name">Tirumarai Selvan - Serverless Manager, Hasura</h5>
                       </div>
                     </div>                    
                   </div>
@@ -851,8 +887,129 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
                         </div>                     
-                        <span className="time">13:30pm - 19:00pm</span>
-                        <h4>Talks to be announced soon!</h4>
+                        <span className="time">1:00pm - 2:00pm</span>
+                        <h4>Lunch break</h4>
+                        <h5 className="name">Time to recover energies with our delicatessen catering</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/uri-goldshtein.jpg')} alt="" />
+                        </div>                     
+                        <span className="time">2:00pm - 2:30pm</span>
+                        <h4>GraphQL - From beginning to Full Stack Production environment</h4>
+                        <h5 className="name">Uri Goldshtein - Founder, The Guild</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/thor-schaeff.png')} alt="" />
+                        </div>                     
+                        <span className="time">2:30pm - 3:00pm</span>
+                        <h4>Making it all fit together with React and GraphQL at Stripe</h4>
+                        <h5 className="name">Thor Schaeff - Developer Advocate, Stripe</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/laura-ambrose.jpg')} alt="" />
+                        </div>                     
+                        <span className="time">3:00pm - 3:30pm</span>
+                        <h4>Converting your React HTTP over to React Apollo / GraphQL</h4>
+                        <h5 className="name">Laura Ambrose - Front End Developer, KintoHub</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="" />
+                        </div>                     
+                        <span className="time">3:30pm - 4:00pm</span>
+                        <h4>Coffee break</h4>
+                        <h5 className="name">Last break before ending, get a coffee/tea & connect</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/sidharta-chatterjee.jpg')} alt="" />
+                        </div>                     
+                        <span className="time">4:00pm - 4:30pm</span>
+                        <h4>How Gatsby uses GraphQL </h4>
+                        <h5 className="name">Sidharta Chatterjee - Software Engineer, Gatsby</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/lucas-munhoz.png')} alt="" />
+                        </div>                     
+                        <span className="time">4:30pm - 5:00pm</span>
+                        <h4>GraphQL @ BrikL</h4>
+                        <h5 className="name">Lucas Munhoz - Software Engineer, BrikL</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingThree">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div className="images-box">
+                          <img className="img-fluid" src={require('../images/tanay-pratap.png')} alt="" />
+                        </div>                     
+                        <span className="time">5:00pm - 5:30pm</span>
+                        <h4>The Magic that is Middleware</h4>
+                        <h5 className="name">Tanay Pratap - Software Engineer, Microsoft</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingTwo">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div className="images-box">
+                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
+                        </div>                     
+                        <span className="time">5:30pm - 6:00pm</span>
+                        <h4>Closing & Announcements</h4>
+                        <h5 className="name">Joseph Cooper, Carlos Rufo &amp; Tobias Meixner</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingTwo">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div className="images-box">
+                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
+                        </div>                     
+                        <span className="time">6:00pm - 7:00pm</span>
+                        <h4>Dinner</h4>
+                        <h5 className="name">TBD</h5>
+                      </div>
+                    </div>                    
+                  </div>
+                  <div className="card">
+                    <div id="headingTwo">
+                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div className="images-box">
+                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
+                        </div>                     
+                        <span className="time">7:00pm - 9:00pm</span>
+                        <h4>After-party</h4>
+                        <h5 className="name">TBD</h5>
                       </div>
                     </div>                    
                   </div>
@@ -864,8 +1021,8 @@ const IndexPage = () => (
       </div>
     </section>
     {/* <!-- Schedule Section End --> */}
+    <div style={{ paddingBottom: 40 }}></div>
 
-   
 
     {/* <!-- Gallary Section Start --> */}
     <section style={{
