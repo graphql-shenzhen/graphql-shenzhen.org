@@ -875,7 +875,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src={require('../images/tirumarai-selvan.png')} alt="" />
                         </div>                     
-                        <span className="time">12:30am - 1:00pm</span>
+                        <span className="time">12:30pm - 1:00pm</span>
                         <h4>Cloud native GraphQL: Making GraphQL work in a Microservices Architecture</h4>
                         <h5 className="name">Tirumarai Selvan - Serverless Manager, Hasura</h5>
                       </div>
