@@ -198,7 +198,7 @@ const IndexPage = () => (
             marginBottom: '20px'
           }} src={require('../images/graphql-hongkong-logo.png')} alt="GraphQL Hong Kong Logo" />
         </div>
-        <h2 style={{
+        <h2 class="title-date" style={{
           color: 'white',
           // color: '#e535ab',
           // background: 'white',
@@ -208,7 +208,7 @@ const IndexPage = () => (
         }}>
         30<sup>th</sup> Sept, 2019
         </h2>
-        <h2 style={{
+        <h2 class="title-date" style={{
           color: 'white',
           // color: '#e535ab',
           // background: 'white',
@@ -995,19 +995,7 @@ const IndexPage = () => (
                         <div className="images-box">
                           <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
                         </div>                     
-                        <span className="time">6:00pm - 7:00pm</span>
-                        <h4>Dinner</h4>
-                        <h5 className="name">TBD</h5>
-                      </div>
-                    </div>                    
-                  </div>
-                  <div className="card">
-                    <div id="headingTwo">
-                      <div className="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <div className="images-box">
-                          <img className="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="" />
-                        </div>                     
-                        <span className="time">7:00pm - 9:00pm</span>
+                        <span className="time">6:00pm - 9:00pm</span>
                         <h4>After-party</h4>
                         <h5 className="name">TBD</h5>
                       </div>
