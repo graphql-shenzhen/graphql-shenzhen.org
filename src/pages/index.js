@@ -221,7 +221,7 @@ const IndexPage = () => (
         <br/><br/>
         <div className="col-12 text-center">
           <a href="#buy-tickets" className="btn btn-common" style={{marginRight: 10}}>Get Tickets</a>
-          <a href="https://drive.google.com/open?id=142I7_ANRwxX40PG7ryLwJ5e30Ey_i0p5" target="_blank" className="btn btn-common">Become a sponsor</a>
+          <a href="https://drive.google.com/open?id=1JGb7sDK7ZOyrqJGgNGfRcXQy6ZIP9EVe" target="_blank" className="btn btn-common">Become a sponsor</a>
         </div>
       </div>
       {/* <!-- Main Carousel Section Start --> */}
