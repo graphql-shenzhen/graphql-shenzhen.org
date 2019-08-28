@@ -1359,20 +1359,26 @@ const IndexPage = () => (
       </div>
 
       <div style={{
-        marginTop: '5em'
+        marginTop: '5em',
       }} className="col-12 text-center">
-        <h3>Partners</h3>
+        <h3 style={{ marginBottom: '1em' }}>Partners</h3>
+        <a href="https://2019.webconf.asia" target="_blank"><img style={{
+              width: '150px',
+              height: '150px',
+              objectFit: 'contain',
+              margin: "0 30px"
+        }} className="img-fluid" src={require('../images/webconf-asia.svg')} alt="Webconf Asia"/></a>
         <a href="https://www.graphql-asia.org/" target="_blank"><img style={{
               width: '150px',
               height: '150px',
               objectFit: 'contain',
-              margin: "0 10px"
+              margin: "0 30px"
         }} className="img-fluid" src={require('../images/GraphQL-Asia-Logo.png')} alt="GraphQL Asia"/></a>
         <a href="https://2019.jsdc.tw" target="_blank"><img style={{
-              width: '300px',
-              height: '300px',
+              width: '150px',
+              height: '150px',
               objectFit: 'contain',
-              margin: "0 10px"
+              margin: "0 30px"
         }} className="img-fluid" src={require('../images/JSDC-2019.png')} alt="JSDC 2019"/></a>
       </div>
 
