@@ -1467,7 +1467,7 @@ const IndexPage = () => (
                 border:'none'
               }} url="https://l.oveit.com/events/embed?id=832f785449"
                 width="100%"
-                height="350px"  
+                height="900px"  
                 className="ticketFrame"                
               />
             </div>
