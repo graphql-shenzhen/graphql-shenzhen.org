@@ -726,7 +726,7 @@ const IndexPage = () => {
                   <div className="info-text">
                     <h3>
                       <a href="https://twitter.com/lnmunhoz" target="_blank">
-                        Apply to Speak!
+                        Apply for a lightning talk!
                       </a>
                     </h3>
                   </div>
