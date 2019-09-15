@@ -1536,38 +1536,21 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/lucas-munhoz.png")}
+                              src={require("../images/profile-picture.png")}
                               alt=""
                             />
                           </div>
                           <span className="time">4:30pm - 5:00pm</span>
-                          <h4>GraphQL @ BrikL</h4>
+                          <h4>Lightning talks incl. your talk?</h4>
                           <h5 className="name">
-                            Lucas Munhoz - Software Engineer, BrikL
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/tanay-pratap.png")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">5:00pm - 5:30pm</span>
-                          <h4>The Magic that is Middleware</h4>
-                          <h5 className="name">
-                            Tanay Pratap - Software Engineer, Microsoft
+                            <a
+                              style={{
+                                color: "#e535ab"
+                              }}
+                              href="mailto:info@graphql-hongkong.org"
+                            >
+                              Apply to speak!
+                            </a>
                           </h5>
                         </div>
                       </div>
@@ -1588,7 +1571,7 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">5:30pm - 6:00pm</span>
+                          <span className="time">5:00pm - 5:30pm</span>
                           <h4>Closing & Announcements</h4>
                           <h5 className="name">
                             Joseph Cooper, Carlos Rufo &amp; Tobias Meixner
@@ -1612,9 +1595,11 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">6:00pm - 9:00pm</span>
+                          <span className="time">5:30pm - 9:00pm</span>
                           <h4>After-party</h4>
-                          <h5 className="name">TBD</h5>
+                          <h5 className="name">
+                            To be announced at conference
+                          </h5>
                         </div>
                       </div>
                     </div>
