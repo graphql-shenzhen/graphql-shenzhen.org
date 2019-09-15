@@ -659,47 +659,6 @@ const IndexPage = () => {
 
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-                <a href="https://twitter.com/tanaypratap" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/tanay-pratap.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/tanaypratap"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/tanaypratap" target="_blank">
-                        Tanay Pratap
-                      </a>
-                    </h3>
-                    <p>Software Engineer, Microsoft</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a href="https://twitter.com/chatsidhartha" target="_blank">
                   <div className="team-img">
@@ -744,39 +703,32 @@ const IndexPage = () => {
 
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
+
+              {/* <!-- Team Item Ends --> */}
+            </div>
+
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="https://twitter.com/lnmunhoz" target="_blank">
+                <a href="mailto:info@graphql-hongkong.org" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/lucas-munhoz.png")}
+                      src={require("../images/profile-picture.png")}
                       alt=""
                     />
                     <div className="team-overlay">
                       <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/lnmunhoz"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
+                        <ul className="social-icons"></ul>
                       </div>
                     </div>
                   </div>
                   <div className="info-text">
                     <h3>
                       <a href="https://twitter.com/lnmunhoz" target="_blank">
-                        Lucas Munhoz
+                        Apply to Speak!
                       </a>
                     </h3>
-                    <p>Software Engineer, BrikL</p>
                   </div>
                 </a>
               </div>
