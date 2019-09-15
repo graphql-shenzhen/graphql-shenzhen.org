@@ -7,8 +7,6 @@ import { Slide } from "react-slideshow-image";
 import Countdown from "react-countdown-now";
 import Iframe from "react-iframe";
 import { Helmet } from "react-helmet";
-import Script from "react-load-script";
-import Safe from "react-safe";
 
 require("../../assets/css/bootstrap.min.css");
 require("../../assets/fonts/line-icons.css");
