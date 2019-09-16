@@ -2082,7 +2082,7 @@ const IndexPage = () => {
                     </li>
                     <li>
                       <i className="lni-check-mark-circle"></i>
-                      <span className="text">Dinner</span>
+                      <span className="text">Lunch</span>
                     </li>
                     {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> */}
                     {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> */}
