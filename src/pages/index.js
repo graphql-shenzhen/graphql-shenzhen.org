@@ -201,7 +201,7 @@ const IndexPage = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact-map">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </li>
@@ -2401,8 +2401,8 @@ const IndexPage = () => {
       {/* <!-- Map Section End --> */}
 
       {/* <!-- Contact Us Section --> */}
-      <div id="contact-map" style={{ paddingBottom: 40 }}></div>
-      <section id="contact-map" className="section-padding">
+      <div id="contact" style={{ paddingBottom: 40 }}></div>
+      <section id="contact" className="section-padding">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12">
