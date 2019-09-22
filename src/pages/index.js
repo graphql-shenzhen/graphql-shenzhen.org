@@ -703,12 +703,6 @@ const IndexPage = () => {
 
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-
-              {/* <!-- Team Item Ends --> */}
-            </div>
-
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a href="mailto:info@graphql-hongkong.org" target="_blank">
                   <div className="team-img">
@@ -725,17 +719,61 @@ const IndexPage = () => {
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/lnmunhoz" target="_blank">
-                        Apply for a lightning talk!
-                      </a>
+                      <a target="_blank">Apply for a lightning talk!</a>
                     </h3>
                   </div>
                 </a>
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-          </div>
 
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
+              <div className="team-item wow fadeInUp" data-wow-delay="1s">
+                <a
+                  href="https://www.linkedin.com/in/jason-mok-31121a1"
+                  target="_blank"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/jason-mok.jpg")}
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/jason-mok-31121a1"
+                              target="_blank"
+                            >
+                              <i
+                                className="lni-linkedin-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a
+                        href="https://www.linkedin.com/in/jason-mok-31121a1"
+                        target="_blank"
+                      >
+                        Jason Mok
+                      </a>
+                    </h3>
+                    <p>CEO, LibraGold</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends --> */}
+            </div>
+          </div>
           <br />
           <br />
           <div className="row">
@@ -1488,11 +1526,33 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
+                              src={require("../images/jason-mok.jpg")}
+                              alt=""
+                            />
+                          </div>
+                          <span className="time">4:30pm - 4:45pm</span>
+                          <h4>GraphQL Application in Blockchain</h4>
+                          <h5 className="name">Jason Mok - CEO, LibraGold</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="card">
+                      <div id="headingThree">
+                        <div
+                          className="collapsed card-header"
+                          data-toggle="collapse"
+                          data-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          <div className="images-box">
+                            <img
+                              className="img-fluid"
                               src={require("../images/profile-picture.png")}
                               alt=""
                             />
                           </div>
-                          <span className="time">4:30pm - 5:00pm</span>
+                          <span className="time">4:45pm - 5:00pm</span>
                           <h4>Lightning talks incl. your talk?</h4>
                           <h5 className="name">
                             <a
