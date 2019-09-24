@@ -223,8 +223,8 @@ const IndexPage = () => {
                 </a>
               </li>
               <li>
-                <a className="page-scroll" href="#pricing">
-                  Tickets
+                <a className="page-scroll" href="#venue">
+                  Venue
                 </a>
               </li>
             </ul>
@@ -293,18 +293,14 @@ const IndexPage = () => {
           <br />
           <div className="col-12 text-center">
             <a
-              href="#buy-tickets"
+              href="#agenda"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              Get Tickets
+              See the agenda
             </a>
-            <a
-              href="https://drive.google.com/open?id=1JGb7sDK7ZOyrqJGgNGfRcXQy6ZIP9EVe"
-              target="_blank"
-              className="btn btn-common"
-            >
-              Become a sponsor
+            <a href="#venue" className="btn btn-common">
+              Look at the venue
             </a>
           </div>
         </div>
@@ -1163,7 +1159,7 @@ const IndexPage = () => {
                   <i className="lni-users"></i>
                 </div>
                 <p>100 Available Seats</p>
-                <span>Hurry-up! few tickets are left</span>
+                <span>Tickets are sold out!</span>
               </div>
             </div>
             {/* <!-- Counter Item --> */}
@@ -2149,12 +2145,9 @@ const IndexPage = () => {
                     {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                   </ul>
                 </div>
-                <a
-                  href="https://l.oveit.com/events/embed?id=832f785449&theme=624b0895e4&language=en"
-                  className="btn btn-common"
-                >
-                  Get them now!
-                </a>
+                <button disabled className="btn btn-common">
+                  Sold out!
+                </button>
                 <br />
                 powered by
                 <br />
