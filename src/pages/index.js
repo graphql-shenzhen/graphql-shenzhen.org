@@ -744,8 +744,8 @@ const IndexPage = () => {
               {/* <!-- Team Item Ends --> */}
             </div>
 
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
+            {/* <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts -->
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a
                   href="https://www.linkedin.com/in/jarronstephens"
@@ -788,8 +788,8 @@ const IndexPage = () => {
                   </div>
                 </a>
               </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
+              {/* <!-- Team Item Ends -->
+            </div> */}
           </div>
 
           <br />
@@ -1554,7 +1554,7 @@ const IndexPage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="card">
+                    {/* <div className="card">
                       <div id="headingThree">
                         <div
                           className="collapsed card-header"
@@ -1579,7 +1579,7 @@ const IndexPage = () => {
                           </h5>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="card">
                       <div id="headingTwo">
                         <div
