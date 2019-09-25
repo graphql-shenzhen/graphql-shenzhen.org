@@ -293,18 +293,11 @@ const IndexPage = () => {
           <br />
           <div className="col-12 text-center">
             <a
-              href="#buy-tickets"
+              href="#agenda"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              Get Tickets
-            </a>
-            <a
-              href="https://drive.google.com/open?id=1JGb7sDK7ZOyrqJGgNGfRcXQy6ZIP9EVe"
-              target="_blank"
-              className="btn btn-common"
-            >
-              Become a sponsor
+              View agenda
             </a>
           </div>
         </div>
@@ -2149,12 +2142,7 @@ const IndexPage = () => {
                     {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
                   </ul>
                 </div>
-                <a
-                  href="https://l.oveit.com/events/embed?id=832f785449&theme=624b0895e4&language=en"
-                  className="btn btn-common"
-                >
-                  Get them now!
-                </a>
+                <div className="btn btn-common">Sold Out!</div>
                 <br />
                 powered by
                 <br />
