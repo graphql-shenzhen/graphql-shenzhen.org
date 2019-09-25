@@ -700,32 +700,6 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="mailto:info@graphql-hongkong.org" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/profile-picture.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons"></ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a target="_blank">Apply for a lightning talk!</a>
-                    </h3>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a
                   href="https://www.linkedin.com/in/jason-mok-31121a1"
                   target="_blank"
@@ -769,7 +743,55 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
+
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
+              <div className="team-item wow fadeInUp" data-wow-delay="1s">
+                <a
+                  href="https://www.linkedin.com/in/jarronstephens"
+                  target="_blank"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/jarron-stephens.jpg")}
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/jarronstephens"
+                              target="_blank"
+                            >
+                              <i
+                                className="lni-linkedin-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a
+                        href="https://www.linkedin.com/in/jarronstephens"
+                        target="_blank"
+                      >
+                        Jarron Stephens
+                      </a>
+                    </h3>
+                    <p>CTO, Ultifin</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends --> */}
+            </div>
           </div>
+
           <br />
           <br />
           <div className="row">
@@ -1544,21 +1566,16 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/profile-picture.png")}
+                              src={require("../images/jarron-stephens.jpg")}
                               alt=""
                             />
                           </div>
                           <span className="time">4:45pm - 5:00pm</span>
-                          <h4>Lightning talks incl. your talk?</h4>
+                          <h4>
+                            Anti-terror Financing, GraphQL and Data Sovereignty
+                          </h4>
                           <h5 className="name">
-                            <a
-                              style={{
-                                color: "#e535ab"
-                              }}
-                              href="mailto:info@graphql-hongkong.org"
-                            >
-                              Apply to speak!
-                            </a>
+                            Jarron Stephens - CTO, Ultifin
                           </h5>
                         </div>
                       </div>
@@ -1606,7 +1623,7 @@ const IndexPage = () => {
                           <span className="time">5:30pm - 9:00pm</span>
                           <h4>After-party</h4>
                           <h5 className="name">
-                            To be announced at conference
+                            To be announced at the conference
                           </h5>
                         </div>
                       </div>
@@ -1936,14 +1953,14 @@ const IndexPage = () => {
               </a>
             </div>
           </div>
-          <div
+          {/* <div
             className="row mb-30 text-center wow fadeInDown"
             data-wow-delay="0.3s"
           >
             <div className="col-md-12 col-sm-12 col-xs-12">
               <h3>We are looking for sponsors and partners</h3>
             </div>
-          </div>
+          </div> */}
           {/* <h2>Silver</h2> */}
           {/* <div className="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s"> */}
           {/* <div className="col-md-3 col-sm-3 col-xs-12">
@@ -1991,7 +2008,7 @@ const IndexPage = () => {
           </div>           */}
           {/* </div> */}
         </div>
-        <div className="col-12 text-center">
+        {/* <div className="col-12 text-center">
           <a
             href="https://drive.google.com/open?id=142I7_ANRwxX40PG7ryLwJ5e30Ey_i0p5"
             target="_blank"
@@ -1999,7 +2016,7 @@ const IndexPage = () => {
           >
             Become a sponsor
           </a>
-        </div>
+        </div> */}
 
         <div
           style={{
