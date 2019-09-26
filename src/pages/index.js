@@ -653,6 +653,7 @@ const IndexPage = () => {
               {/* <!-- Team Item Ends --> */}
             </div>
 
+            <div className="col-sm-6 col-md-6 col-lg-4"></div>
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
@@ -697,8 +698,8 @@ const IndexPage = () => {
               {/* <!-- Team Item Ends --> */}
             </div>
 
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
+            {/* <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts -->
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a
                   href="https://www.linkedin.com/in/jason-mok-31121a1"
@@ -741,8 +742,8 @@ const IndexPage = () => {
                   </div>
                 </a>
               </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
+              {/* <!-- Team Item Ends
+            </div> */}
 
             {/* <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts -->
@@ -1544,6 +1545,28 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
+                              src={require("../images/lightning-talks.png")}
+                              alt=""
+                            />
+                          </div>
+                          <span className="time">4:30pm - 5:00pm</span>
+                          <h4>Lightning talks</h4>
+                          <h5 className="name">Jason Mok & Jarron Stephens</h5>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="card">
+                      <div id="headingThree">
+                        <div
+                          className="collapsed card-header"
+                          data-toggle="collapse"
+                          data-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          <div className="images-box">
+                            <img
+                              className="img-fluid"
                               src={require("../images/jason-mok.jpg")}
                               alt=""
                             />
@@ -1553,7 +1576,7 @@ const IndexPage = () => {
                           <h5 className="name">Jason Mok - CEO, LibraGold</h5>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="card">
                       <div id="headingThree">
                         <div
