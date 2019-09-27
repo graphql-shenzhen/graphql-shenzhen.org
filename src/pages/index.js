@@ -441,7 +441,6 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
@@ -485,7 +484,6 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
@@ -526,7 +524,6 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
@@ -570,7 +567,6 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
@@ -611,7 +607,6 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
@@ -652,8 +647,52 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
-            <div className="col-sm-6 col-md-6 col-lg-4"></div>
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts -->*/}
+              <div className="team-item wow fadeInUp" data-wow-delay="1s">
+                <a
+                  href="https://www.linkedin.com/in/jason-mok-31121a1"
+                  target="_blank"
+                >
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/jason-mok.jpg")}
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/jason-mok-31121a1"
+                              target="_blank"
+                            >
+                              <i
+                                className="lni-linkedin-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a
+                        href="https://www.linkedin.com/in/jason-mok-31121a1"
+                        target="_blank"
+                      >
+                        Jason Mok
+                      </a>
+                    </h3>
+                    <p>CEO, LibraGold</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends*/}
+            </div>
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
@@ -697,56 +736,8 @@ const IndexPage = () => {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-
-            {/* <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts -->
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a
-                  href="https://www.linkedin.com/in/jason-mok-31121a1"
-                  target="_blank"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/jason-mok.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/jason-mok-31121a1"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-linkedin-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://www.linkedin.com/in/jason-mok-31121a1"
-                        target="_blank"
-                      >
-                        Jason Mok
-                      </a>
-                    </h3>
-                    <p>CEO, LibraGold</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends
-            </div> */}
-
-            {/* <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts -->
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a
                   href="https://www.linkedin.com/in/jarronstephens"
@@ -789,8 +780,52 @@ const IndexPage = () => {
                   </div>
                 </a>
               </div>
-              {/* <!-- Team Item Ends -->
-            </div> */}
+              {/* <!-- Team Item Ends -->*/}
+            </div>
+            <div className="col-sm-6 col-md-6 col-lg-4"></div>
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
+              <div className="team-item wow fadeInUp" data-wow-delay="1s">
+                <a href="https://www.linkedin.com/in/varunvasu" target="_blank">
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/varum-vasudevan.png")}
+                      alt=""
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/varunvasu"
+                              target="_blank"
+                            >
+                              <i
+                                className="lni-linkedin-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a
+                        href="https://www.linkedin.com/in/varunvasu"
+                        target="_blank"
+                      >
+                        Varum Vasudevan
+                      </a>
+                    </h3>
+                    <p>Full Stack Developer</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends -->*/}
+            </div>
           </div>
 
           <br />
@@ -1533,7 +1568,7 @@ const IndexPage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="card">
+                    {/* <div className="card">
                       <div id="headingThree">
                         <div
                           className="collapsed card-header"
@@ -1554,8 +1589,8 @@ const IndexPage = () => {
                           <h5 className="name">Jason Mok & Jarron Stephens</h5>
                         </div>
                       </div>
-                    </div>
-                    {/* <div className="card">
+                    </div> */}
+                    <div className="card">
                       <div id="headingThree">
                         <div
                           className="collapsed card-header"
@@ -1576,8 +1611,8 @@ const IndexPage = () => {
                           <h5 className="name">Jason Mok - CEO, LibraGold</h5>
                         </div>
                       </div>
-                    </div> */}
-                    {/* <div className="card">
+                    </div>
+                    <div className="card">
                       <div id="headingThree">
                         <div
                           className="collapsed card-header"
@@ -1602,7 +1637,31 @@ const IndexPage = () => {
                           </h5>
                         </div>
                       </div>
-                    </div> */}
+                    </div>
+                    <div className="card">
+                      <div id="headingThree">
+                        <div
+                          className="collapsed card-header"
+                          data-toggle="collapse"
+                          data-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          <div className="images-box">
+                            <img
+                              className="img-fluid"
+                              src={require("../images/varum-vasudevan.png")}
+                              alt=""
+                            />
+                          </div>
+                          <span className="time">5:00pm - 5:15pm</span>
+                          <h4>Building a bank on GraphQL</h4>
+                          <h5 className="name">
+                            Varun Vasudevan - Full Stack Developer
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
                     <div className="card">
                       <div id="headingTwo">
                         <div
@@ -1619,7 +1678,7 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">5:00pm - 5:30pm</span>
+                          <span className="time">5:15pm - 5:30pm</span>
                           <h4>Closing & Announcements</h4>
                           <h5 className="name">
                             Joseph Cooper, Carlos Rufo &amp; Tobias Meixner
@@ -1639,7 +1698,7 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src="assets/img/speaker/speakers-2.jpg"
+                              src={require("../images/after-party.png")}
                               alt=""
                             />
                           </div>
