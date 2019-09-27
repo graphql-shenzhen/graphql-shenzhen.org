@@ -1629,9 +1629,7 @@ const IndexPage = () => {
                             />
                           </div>
                           <span className="time">4:45pm - 5:00pm</span>
-                          <h4>
-                            Anti-terror Financing, GraphQL and Data Sovereignty
-                          </h4>
+                          <h4>GraphQL and Data Sovereignty</h4>
                           <h5 className="name">
                             Jarron Stephens - CTO, Ultifin
                           </h5>
