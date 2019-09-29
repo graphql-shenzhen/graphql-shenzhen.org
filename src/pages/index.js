@@ -296,14 +296,16 @@ const IndexPage = () => {
           <br />
           <div className="col-12 text-center">
             <a
-              href="#agenda"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdm3jOtYk-s_MVSoNucNVMUwjLGTU30FcAdReuEEkNLPOYIWQ/viewform"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
               Call for papers
             </a>
             <a
-              href="mailto:sponsors@graphql-hongkong.org"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
               className="btn btn-common"
             >
               Become a sponsor
@@ -1309,7 +1311,7 @@ const IndexPage = () => {
                   />
                 </div>
               </a> */}
-              <a href="https://hasura.io">
+              <a target="_blank" href="https://hasura.io">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1340,7 +1342,11 @@ const IndexPage = () => {
                 />
                 </div>
               </a> */}
-              <a href="mailto:sponsors@graphql-hongkong.org">
+
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              >
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1637,7 +1643,10 @@ const IndexPage = () => {
               <h3 style={{ marginBottom: 40 }}>
                 GraphQL Hong Kong Meetup #1 will be held in
               </h3>
-              <a href="mailo:sponsors@graphql-hongkong.org" target="_blank">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+                target="_blank"
+              >
                 <img
                   width={200}
                   src={require("../images/become-sponsor.jpg")}
