@@ -1720,7 +1720,7 @@ const IndexPage = () => {
       {/* <!-- Schedule Section End --> */}
       <div style={{ paddingBottom: 40 }}></div>
 
-      {/* <!-- Gallary Section Start --> */}
+      {/*  <!-- Gallary Section Start --> */}
       <section
         style={{
           display: "none"
