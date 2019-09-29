@@ -78,10 +78,10 @@ const IndexPage = () => {
       <Helmet>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@GraphQLHongKong" />
-        <meta name="twitter:title" content="GraphQL Hong Kong 2019" />
+        <meta name="twitter:title" content="GraphQL Hong Kong Meetup" />
         <meta
           name="twitter:description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           name="twitter:image"
@@ -89,10 +89,10 @@ const IndexPage = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site" content="@GraphQLHongKong" />
-        <meta property="og:title" content="GraphQL Hong Kong 2019" />
+        <meta property="og:title" content="GraphQL Hong Kong Meetup" />
         <meta
           property="og:description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           property="og:image"
@@ -104,11 +104,11 @@ const IndexPage = () => {
         />
         <meta
           name="description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           name="keywords"
-          content="GraphQL,2019,conference,Asia,HongKong,GraphQLHongKong"
+          content="GraphQL,meetup,Asia,HongKong,GraphQLHongKong"
         />
         <meta property="og:url" content="https://graphql-hongkong.org/" />
       </Helmet>
@@ -185,11 +185,11 @@ const IndexPage = () => {
                     Sponsors
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#pricing">
                     tickets
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="#venue">
                     venue
@@ -236,7 +236,7 @@ const IndexPage = () => {
         <div
           style={{
             paddingTop: "20vh",
-            height: "85vh",
+            height: "100vh",
             backgroundImage: `
         linear-gradient(
           rgba(15,15,15, 0.25), 
@@ -302,7 +302,10 @@ const IndexPage = () => {
             >
               Call for papers
             </a>
-            <a href="#venue" className="btn btn-common">
+            <a
+              href="mailto:sponsors@graphql-hongkong.org"
+              className="btn btn-common"
+            >
               Become a sponsor
             </a>
           </div>
@@ -407,11 +410,11 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-                <a href="https://twitter.com/dabit3" target="_blank">
+                <a href="https://twitter.com/tanmaigo" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/nader-dabit.jpg")}
+                      src={require("../images/tanmai-gopal.jpg")}
                       alt=""
                     />
                     <div className="team-overlay">
@@ -419,7 +422,7 @@ const IndexPage = () => {
                         <ul className="social-icons">
                           <li>
                             <a
-                              href="https://twitter.com/dabit3"
+                              href="https://twitter.com/tanmaigo"
                               target="_blank"
                             >
                               <i
@@ -434,7 +437,7 @@ const IndexPage = () => {
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/dabit3" target="_blank">
+                      <a href="https://twitter.com/tanmaigo" target="_blank">
                         Tanmai Gopal
                       </a>
                     </h3>
@@ -921,7 +924,7 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/nader-dabit.jpg")}
+                              src={require("../images/tanmai-gopal.jpg")}
                               alt=""
                             />
                           </div>
@@ -997,7 +1000,7 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">20:45 - ?</span>
+                          <span className="time">20:45 - 21:30</span>
                           <h4>After-party</h4>
                           <h5 className="name">
                             To be announced at the meetup
@@ -1337,7 +1340,7 @@ const IndexPage = () => {
                 />
                 </div>
               </a> */}
-              <a href="https://hasura.io">
+              <a href="mailto:sponsors@graphql-hongkong.org">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1346,7 +1349,7 @@ const IndexPage = () => {
                       objectFit: "contain"
                     }}
                     className="img-fluid"
-                    src={require("../images/profile-picture.png")}
+                    src={require("../images/become-sponsor.jpg")}
                     alt="Hasura"
                   />
                 </div>
@@ -1632,17 +1635,17 @@ const IndexPage = () => {
               }}
             >
               <h3 style={{ marginBottom: 40 }}>
-                GraphQL Hong Kong 2019 will be held in
+                GraphQL Hong Kong Meetup #1 will be held in
               </h3>
-              <a
-                href="https://thewave.com.hk/events-space/kwun-tong/"
-                target="_blank"
-              >
-                <img width={400} src={require("../images/the-wave.png")} />
+              <a href="mailo:sponsors@graphql-hongkong.org" target="_blank">
+                <img
+                  width={200}
+                  src={require("../images/become-sponsor.jpg")}
+                />
               </a>
-              <h3 style={{ marginBottom: 20 }}>
+              {/* <h3 style={{ marginBottom: 20 }}>
                 8th Floor, 4 Hing Yip St, Kwun Tong
-              </h3>
+              </h3> */}
               {/* <div className="gallery-box">
               <div className="img-thumb">
               <svg style={{
@@ -1659,7 +1662,7 @@ const IndexPage = () => {
                     width: "100%",
                     height: "500px"
                   }}
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14764.655635042041!2d114.2244856!3d22.30964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7da079e4466780b8!2sThe+Wave!5e0!3m2!1sen!2s!4v1566558034090!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32879.95300948723!2d114.15226195118642!3d22.3037952314128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fefda2ea2807%3A0x486db43574f494da!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1569768677601!5m2!1sen!2shk"
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
