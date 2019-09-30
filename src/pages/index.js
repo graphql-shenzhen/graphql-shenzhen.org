@@ -301,7 +301,7 @@ const IndexPage = () => {
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              Call for papers
+              Submit a talk!
             </a>
             <a
               target="_blank"
@@ -794,7 +794,7 @@ const IndexPage = () => {
                 <div className="icon">
                   <i className="lni-users"></i>
                 </div>
-                <p>~50 Available Seats</p>
+                <p>~50/100 Available Seats</p>
                 <span>We're looking for venue sponsors!</span>
               </div>
             </div>
@@ -1362,6 +1362,62 @@ const IndexPage = () => {
               </a>
             </div>
           </div>
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title-header text-center">
+                <h1
+                  className="section-title wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  style={{
+                    marginTop: 60
+                  }}
+                >
+                  Past Sponsors
+                </h1>
+                <p className="wow fadeInDown" data-wow-delay="0.2s"></p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row mb-30 text-center wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            <div className="col-md-12 col-sm-12 col-xs-12">
+              <a href="https://aws.amazon.com/amplify">
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "100px",
+                      height: "100px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/aws-amplify.png")}
+                    alt="AWS Amplify"
+                  />
+                </div>
+              </a>
+            </div>
+            {/* <div className="col-md-6 col-sm-6 col-xs-6">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              >
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/become-sponsor.jpg")}
+                    alt="Hasura"
+                  />
+                </div>
+              </a>
+            </div> */}
+          </div>
 
           {/* <div
             className="row mb-30 text-center wow fadeInDown"
@@ -1671,7 +1727,7 @@ const IndexPage = () => {
                     width: "100%",
                     height: "500px"
                   }}
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32879.95300948723!2d114.15226195118642!3d22.3037952314128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fefda2ea2807%3A0x486db43574f494da!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1569768677601!5m2!1sen!2shk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.6193121551!2d113.98727345483739!3d22.352673471941678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fefda2ea2807%3A0x486db43574f494da!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1569790774204!5m2!1sen!2shk"
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
