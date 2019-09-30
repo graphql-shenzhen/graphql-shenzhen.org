@@ -16,7 +16,7 @@ require("../../assets/css/nivo-lightbox.css");
 
 require("../../assets/scss/main.scss");
 require("../../assets/scss/responsive.scss");
-const slide1 = require("../../assets/img//slider/slide_1.jpg");
+const slide1 = require("../images/background.jpg");
 const slideImages = [
   slide1
   // 'images/slide_3.jpg',
@@ -78,10 +78,10 @@ const IndexPage = () => {
       <Helmet>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@GraphQLHongKong" />
-        <meta name="twitter:title" content="GraphQL Hong Kong 2019" />
+        <meta name="twitter:title" content="GraphQL Hong Kong Meetup" />
         <meta
           name="twitter:description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           name="twitter:image"
@@ -89,10 +89,10 @@ const IndexPage = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:site" content="@GraphQLHongKong" />
-        <meta property="og:title" content="GraphQL Hong Kong 2019" />
+        <meta property="og:title" content="GraphQL Hong Kong Meetup" />
         <meta
           property="og:description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           property="og:image"
@@ -104,11 +104,11 @@ const IndexPage = () => {
         />
         <meta
           name="description"
-          content="A one-day conference on Sept, 30th by & for the GraphQL community"
+          content="A meetup by & for the GraphQL community"
         />
         <meta
           name="keywords"
-          content="GraphQL,2019,conference,Asia,HongKong,GraphQLHongKong"
+          content="GraphQL,meetup,Asia,HongKong,GraphQLHongKong"
         />
         <meta property="og:url" content="https://graphql-hongkong.org/" />
       </Helmet>
@@ -185,11 +185,11 @@ const IndexPage = () => {
                     Sponsors
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#pricing">
                     tickets
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="#venue">
                     venue
@@ -236,7 +236,7 @@ const IndexPage = () => {
         <div
           style={{
             paddingTop: "20vh",
-            height: "85vh",
+            height: "100vh",
             backgroundImage: `
         linear-gradient(
           rgba(15,15,15, 0.25), 
@@ -248,7 +248,10 @@ const IndexPage = () => {
             textAlign: "center"
           }}
         >
-          <h1 className="mainTitle">GraphQL Hong Kong</h1>
+          <h1 className="mainTitle">
+            GraphQL Hong Kong <br />
+            Meetup #1
+          </h1>
           <div className="navbar-brand">
             <img
               style={{
@@ -274,7 +277,7 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            30<sup>th</sup> Sept, 2019
+            04<sup>th</sup> Dec, 2019
           </h2>
           <h2
             class="title-date"
@@ -287,20 +290,25 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            8/F The Wave, Kwun Tong
+            TBD, Hong Kong
           </h2>
           <br />
           <br />
           <div className="col-12 text-center">
             <a
-              href="#agenda"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdm3jOtYk-s_MVSoNucNVMUwjLGTU30FcAdReuEEkNLPOYIWQ/viewform"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              See the agenda
+              Submit a talk!
             </a>
-            <a href="#venue" className="btn btn-common">
-              Look at the venue
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              className="btn btn-common"
+            >
+              Become a sponsor
             </a>
           </div>
         </div>
@@ -404,11 +412,11 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-                <a href="https://twitter.com/dabit3" target="_blank">
+                <a href="https://twitter.com/tanmaigo" target="_blank">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/nader-dabit.jpg")}
+                      src={require("../images/tanmai-gopal.jpg")}
                       alt=""
                     />
                     <div className="team-overlay">
@@ -416,7 +424,7 @@ const IndexPage = () => {
                         <ul className="social-icons">
                           <li>
                             <a
-                              href="https://twitter.com/dabit3"
+                              href="https://twitter.com/tanmaigo"
                               target="_blank"
                             >
                               <i
@@ -431,99 +439,17 @@ const IndexPage = () => {
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/dabit3" target="_blank">
-                        Nader Dabit
+                      <a href="https://twitter.com/tanmaigo" target="_blank">
+                        Tanmai Gopal
                       </a>
                     </h3>
-                    <p>Developer Advocate, AWS</p>
+                    <p>Co-Founder & CEO, Hasura</p>
                   </div>
                 </a>
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
-                <a href="https://twitter.com/shrutikapoor08" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/shruti-kapoor.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/shrutikapoor08"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://twitter.com/shrutikapoor08"
-                        target="_blank"
-                      >
-                        Shruti Kapoor
-                      </a>
-                    </h3>
-                    <p>Software Engineer, Paypal</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1.2s">
-                <a href="https://twitter.com/Tirumarai" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/tirumarai-selvan.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/Tirumarai"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/Tirumarai" target="_blank">
-                        Tirumarai Selvan
-                      </a>
-                    </h3>
-                    <p>Serverless Manager, Hasura</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
+
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.8s">
@@ -561,406 +487,7 @@ const IndexPage = () => {
                         Uri Goldshtein
                       </a>
                     </h3>
-                    <p>Founder, The Guild</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="https://twitter.com/thorwebdev" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/thor-schaeff.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/thorwebdev"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/thorwebdev" target="_blank">
-                        Thor Schaeff
-                      </a>
-                    </h3>
-                    <p>Developer Advocate, Stripe</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="https://twitter.com/VoodooLawz" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/laura-ambrose.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/VoodooLawz"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/VoodooLawz" target="_blank">
-                        Laura Ambrose
-                      </a>
-                    </h3>
-                    <p>Front End Developer, KintoHub</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts -->*/}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a
-                  href="https://www.linkedin.com/in/jason-mok-31121a1"
-                  target="_blank"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/jason-mok.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/jason-mok-31121a1"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-linkedin-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://www.linkedin.com/in/jason-mok-31121a1"
-                        target="_blank"
-                      >
-                        Jason Mok
-                      </a>
-                    </h3>
-                    <p>CEO, LibraGold</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends*/}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="https://twitter.com/chatsidhartha" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/sidharta-chatterjee.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://twitter.com/chatsidhartha"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://twitter.com/chatsidhartha"
-                        target="_blank"
-                      >
-                        Sidharta Chatterjee
-                      </a>
-                    </h3>
-                    <p>Software Engineer, Gatsby</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a
-                  href="https://www.linkedin.com/in/jarronstephens"
-                  target="_blank"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/jarron-stephens.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/jarronstephens"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-linkedin-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://www.linkedin.com/in/jarronstephens"
-                        target="_blank"
-                      >
-                        Jarron Stephens
-                      </a>
-                    </h3>
-                    <p>CTO, Ultifin</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends -->*/}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4"></div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a href="https://www.linkedin.com/in/varunvasu" target="_blank">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/varum-vasudevan.png")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/varunvasu"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-linkedin-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://www.linkedin.com/in/varunvasu"
-                        target="_blank"
-                      >
-                        Varum Vasudevan
-                      </a>
-                    </h3>
-                    <p>Full Stack Developer</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends -->*/}
-            </div>
-          </div>
-
-          <br />
-          <br />
-          <div className="row">
-            <div className="col-12">
-              <div className="section-title-header text-center">
-                <h1
-                  className="section-title wow fadeInUp"
-                  data-wow-delay="0.2s"
-                >
-                  Masters of ceremonies
-                </h1>
-                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center align-items-center">
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="https://twitter.com/bgever">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/bart-verkoeijen.png")}
-                      alt="Bart Verkoeijen"
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="https://twitter.com/bgever">
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/bgever">Bart Verkoeijen</a>
-                    </h3>
-                    <p>Developer Advocate, KintoHub</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-          </div>
-          <br />
-          <br />
-          <div className="row">
-            <div className="col-12">
-              <div className="section-title-header text-center">
-                <h1
-                  className="section-title wow fadeInUp"
-                  data-wow-delay="0.2s"
-                >
-                  Organizers
-                </h1>
-                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center align-items-center">
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="https://twitter.com/codingcoop">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/joseph-cooper.png")}
-                      alt="Joseph Cooper"
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="https://twitter.com/codingcoop">
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/codingcoop">Joseph Cooper</a>
-                    </h3>
-                    <p>Founder & CEO, KintoHub</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="https://twitter.com/swcarlosrj">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/carlos-rufo.jpg")}
-                      alt="Carlos Rufo"
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="https://twitter.com/swcarlosrj">
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
-                    </h3>
-                    <p>Organizer, GraphQL Hong Kong</p>
+                    <p>Founder & CEO, The Guild</p>
                   </div>
                 </a>
               </div>
@@ -998,6 +525,59 @@ const IndexPage = () => {
                       </a>
                     </h3>
                     <p>Co-Founder & CTO, BrikL</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends --> */}
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title-header text-center">
+                <h1
+                  className="section-title wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  Masters of ceremonies
+                </h1>
+                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center align-items-center">
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
+              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+                <a href="https://twitter.com/swcarlosrj">
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/carlos-rufo.jpg")}
+                      alt="Carlos Rufo"
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        <ul className="social-icons">
+                          <li>
+                            <a href="https://twitter.com/swcarlosrj">
+                              <i
+                                className="lni-twitter-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
+                    </h3>
+                    <p>Organizer, GraphQL Hong Kong</p>
                   </div>
                 </a>
               </div>
@@ -1060,7 +640,7 @@ const IndexPage = () => {
                   <h3>
                     <a href="#">Meet New Faces</a>
                   </h3>
-                  <p>At the first international GraphQL event in Hong Kong.</p>
+                  <p>At the first GraphQL meetup in Hong Kong.</p>
                 </div>
               </div>
             </div>
@@ -1109,11 +689,9 @@ const IndexPage = () => {
                 </div>
                 <div className="services-content">
                   <h3>
-                    <a href="#">Global Event</a>
+                    <a href="#">Local Event</a>
                   </h3>
-                  <p>
-                    An event in the middle of Asia and an international city.
-                  </p>
+                  <p>An event with international speakers.</p>
                 </div>
               </div>
             </div>
@@ -1206,8 +784,8 @@ const IndexPage = () => {
                 <div className="icon">
                   <i className="lni-timer"></i>
                 </div>
-                <p>September 30th, 2019</p>
-                <span>10:00am – 18:00</span>
+                <p>December 04th, 2019</p>
+                <span>19:00 – 21:00</span>
               </div>
             </div>
             {/* <!-- Counter Item --> */}
@@ -1216,17 +794,17 @@ const IndexPage = () => {
                 <div className="icon">
                   <i className="lni-users"></i>
                 </div>
-                <p>100 Available Seats</p>
-                <span>Tickets are sold out!</span>
+                <p>~50/100 Available Seats</p>
+                <span>We're looking for venue sponsors!</span>
               </div>
             </div>
             {/* <!-- Counter Item --> */}
             <div className="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
               <div className="counter wow fadeInRight" data-wow-delay="1.2s">
                 <div className="icon">
-                  <i className="lni-coffee-cup"></i>
+                  <i className="lni-dinner"></i>
                 </div>
-                <p>Free Lunch &amp; Snacks</p>
+                <p>Free Dinner &amp; Drinks</p>
                 <span>Don’t miss it</span>
               </div>
             </div>
@@ -1269,8 +847,8 @@ const IndexPage = () => {
                       aria-expanded="true"
                     >
                       <div className="item-text">
-                        <h4>Monday</h4>
-                        <h5>30th September</h5>
+                        <h4>Wednesday</h4>
+                        <h5>4th December</h5>
                       </div>
                     </a>
                   </li>
@@ -1304,10 +882,10 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">10:00 - 11:00</span>
+                          <span className="time">18:30 - 19:00</span>
                           <h4>Registration</h4>
                           <h5 className="name">
-                            Get ready meeting new folks & enjoying coffee/tea
+                            Get ready meeting new folks & enjoying pizza/drinks
                           </h5>
                         </div>
                       </div>
@@ -1324,14 +902,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src="assets/img/speaker/speakers-3.jpg"
+                              src={require("../images/carlos-rufo.jpg")}
                               alt=""
                             />
                           </div>
-                          <span className="time">11:00 - 11:30</span>
+                          <span className="time">19:00 - 19:15</span>
                           <h4>Welcome & Intro</h4>
                           <h5 className="name">
-                            Bart Verkoeijen & Carlos Rufo
+                            Carlos Rufo - Organizer, GraphQL Hong Kong
                           </h5>
                         </div>
                       </div>
@@ -1348,96 +926,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/tirumarai-selvan.png")}
+                              src={require("../images/tanmai-gopal.jpg")}
                               alt=""
                             />
                           </div>
-                          <span className="time">11:30 - 12:00</span>
-                          <h4>
-                            Cloud native GraphQL: Making GraphQL work in a
-                            Microservices Architecture
-                          </h4>
+                          <span className="time">19:15 - 19:45</span>
+                          <h4>TBD</h4>
                           <h5 className="name">
-                            Tirumarai Selvan - Serverless Manager, Hasura
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/thor-schaeff.png")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">12:00 - 12:30</span>
-                          <h4>
-                            Making it all fit together with React and GraphQL at
-                            Stripe
-                          </h4>
-                          <h5 className="name">
-                            Thor Schaeff - Developer Advocate, Stripe
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/laura-ambrose.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">12:30 - 13:00</span>
-                          <h4>
-                            Converting your React HTTP over to React Apollo /
-                            GraphQL
-                          </h4>
-                          <h5 className="name">
-                            Laura Ambrose - Front End Developer, KintoHub
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src="assets/img/speaker/speakers-3.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">13:00 - 14:00</span>
-                          <h4>Lunch break</h4>
-                          <h5 className="name">
-                            Time to recover energies with our delicatessen
-                            catering
+                            Tanmai Gopal - Co-Founder & CEO, Hasura
                           </h5>
                         </div>
                       </div>
@@ -1458,13 +954,10 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">14:00 - 14:30</span>
-                          <h4>
-                            GraphQL - From beginning to Full Stack Production
-                            environment
-                          </h4>
+                          <span className="time">19:45 - 20:15</span>
+                          <h4>TBD</h4>
                           <h5 className="name">
-                            Uri Goldshtein - Founder, The Guild
+                            Uri Goldshtein - Founder & CEO, The Guild
                           </h5>
                         </div>
                       </div>
@@ -1485,203 +978,10 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">14:30 - 14:45</span>
-                          <h4>
-                            GraphQL Server - Single Point of Opportunities
-                          </h4>
-                          <h5 className="name">Tobias Meixner - CTO, BrikL</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/jason-mok.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">14:45 - 15:00</span>
-                          <h4>GraphQL Application in Blockchain</h4>
-                          <h5 className="name">Jason Mok - CEO, LibraGold</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/jarron-stephens.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">15:00 - 15:15</span>
-                          <h4>GraphQL and Data Sovereignty</h4>
+                          <span className="time">20:15 - 20:45</span>
+                          <h4>TBD</h4>
                           <h5 className="name">
-                            Jarron Stephens - CTO, Ultifin
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/varum-vasudevan.png")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">15:15 - 15:30</span>
-                          <h4>Building a bank on GraphQL</h4>
-                          <h5 className="name">
-                            Varun Vasudevan - Full Stack Developer
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src="assets/img/speaker/speakers-3.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">15:30 - 16:00</span>
-                          <h4>Coffee break</h4>
-                          <h5 className="name">
-                            Last break before ending, get a coffee/tea & connect
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/sidharta-chatterjee.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">16:00 - 16:30</span>
-                          <h4>How Gatsby uses GraphQL </h4>
-                          <h5 className="name">
-                            Sidharta Chatterjee - Software Engineer, Gatsby
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/nader-dabit.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">16:30 - 17:00</span>
-                          <h4>
-                            Infrastructure as Code - Building APIs with GraphQL
-                            Transform
-                          </h4>
-                          <h5 className="name">
-                            Nader Dabit - Developer Advocate, AWS
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src={require("../images/shruti-kapoor.png")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">17:00 - 17:30</span>
-                          <h4>GraphQL & State Management with React Hooks</h4>
-                          <h5 className="name">
-                            Shruti Kapoor - Software Engineer, Paypal
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingTwo">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
-                              src="assets/img/speaker/speakers-2.jpg"
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">17:30 - 18:00</span>
-                          <h4>Closing & Announcements</h4>
-                          <h5 className="name">
-                            Joseph Cooper, Carlos Rufo &amp; Tobias Meixner
+                            Tobias Meixner - Co-Founder & CTO, BrikL
                           </h5>
                         </div>
                       </div>
@@ -1702,10 +1002,10 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">18:00 - 21:00</span>
+                          <span className="time">20:45 - 21:30</span>
                           <h4>After-party</h4>
                           <h5 className="name">
-                            To be announced at the conference
+                            To be announced at the meetup
                           </h5>
                         </div>
                       </div>
@@ -1995,9 +1295,9 @@ const IndexPage = () => {
             className="row mb-30 text-center wow fadeInDown"
             data-wow-delay="0.3s"
           >
-            <div className="col-md-12 col-sm-12 col-xs-12">
-              <h2>Platinum</h2>
-              <a href="https://aws.amazon.com/amplify">
+            <div className="col-md-6 col-sm-6 col-xs-6">
+              <h2>Food & Drinks</h2>
+              {/* <a href="https://aws.amazon.com/amplify">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -2010,7 +1310,72 @@ const IndexPage = () => {
                     alt="AWS Amplify"
                   />
                 </div>
+              </a> */}
+              <a target="_blank" href="https://hasura.io">
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/hasura.svg")}
+                    alt="Hasura"
+                  />
+                </div>
               </a>
+            </div>
+            <div className="col-md-6 col-sm-6 col-xs-6">
+              <h2>Venue</h2>
+              {/* <a href="https://aws.amazon.com/amplify">
+                <div className="spnsors-logo">
+                <img
+                style={{
+                  width: "200px",
+                  height: "200px",
+                  objectFit: "contain"
+                }}
+                className="img-fluid"
+                src={require("../images/aws-amplify.png")}
+                alt="AWS Amplify"
+                />
+                </div>
+              </a> */}
+
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              >
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/become-sponsor.jpg")}
+                    alt="Hasura"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title-header text-center">
+                <h1
+                  className="section-title wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  style={{
+                    marginTop: 60
+                  }}
+                >
+                  Past Sponsors
+                </h1>
+                <p className="wow fadeInDown" data-wow-delay="0.2s"></p>
+              </div>
             </div>
           </div>
           <div
@@ -2018,6 +1383,47 @@ const IndexPage = () => {
             data-wow-delay="0.3s"
           >
             <div className="col-md-12 col-sm-12 col-xs-12">
+              <a href="https://aws.amazon.com/amplify">
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "100px",
+                      height: "100px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/aws-amplify.png")}
+                    alt="AWS Amplify"
+                  />
+                </div>
+              </a>
+            </div>
+            {/* <div className="col-md-6 col-sm-6 col-xs-6">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              >
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/become-sponsor.jpg")}
+                    alt="Hasura"
+                  />
+                </div>
+              </a>
+            </div> */}
+          </div>
+
+          {/* <div
+            className="row mb-30 text-center wow fadeInDown"
+            data-wow-delay="0.3s"
+          >
+            <div className="col-md-6 col-sm-6 col-xs-6">
               <h2>Gold</h2>
               <a href="https://hasura.io">
                 <div className="spnsors-logo">
@@ -2034,7 +1440,7 @@ const IndexPage = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
           {/* <div
             className="row mb-30 text-center wow fadeInDown"
             data-wow-delay="0.3s"
@@ -2100,7 +1506,7 @@ const IndexPage = () => {
           </a>
         </div> */}
 
-        <div
+        {/* <div
           style={{
             marginTop: "5em"
           }}
@@ -2182,12 +1588,12 @@ const IndexPage = () => {
                 alt="BrikL"
               />
             </a>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
       </section>
       {/* <!-- Sponsors Section End --> */}
 
-      {/* <!-- Ticket Pricing Area Start --> */}
+      {/* <!-- Ticket Pricing Area Start --> 
       <div id="pricing" style={{ paddingBottom: 40 }}></div>
       <section id="pricing" className="section-padding">
         <div className="container">
@@ -2239,9 +1645,9 @@ const IndexPage = () => {
                       <i className="lni-check-mark-circle"></i>
                       <span className="text">Lunch</span>
                     </li>
-                    {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> */}
-                    {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> */}
-                    {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
+                    {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> 
+                    {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> 
+                    {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> 
                   </ul>
                 </div>
                 <button disabled className="btn btn-common">
@@ -2291,17 +1697,20 @@ const IndexPage = () => {
               }}
             >
               <h3 style={{ marginBottom: 40 }}>
-                GraphQL Hong Kong 2019 will be held in
+                GraphQL Hong Kong Meetup #1 will be held in
               </h3>
               <a
-                href="https://thewave.com.hk/events-space/kwun-tong/"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
                 target="_blank"
               >
-                <img width={400} src={require("../images/the-wave.png")} />
+                <img
+                  width={200}
+                  src={require("../images/become-sponsor.jpg")}
+                />
               </a>
-              <h3 style={{ marginBottom: 20 }}>
+              {/* <h3 style={{ marginBottom: 20 }}>
                 8th Floor, 4 Hing Yip St, Kwun Tong
-              </h3>
+              </h3> */}
               {/* <div className="gallery-box">
               <div className="img-thumb">
               <svg style={{
@@ -2318,7 +1727,7 @@ const IndexPage = () => {
                     width: "100%",
                     height: "500px"
                   }}
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14764.655635042041!2d114.2244856!3d22.30964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7da079e4466780b8!2sThe+Wave!5e0!3m2!1sen!2s!4v1566558034090!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.6193121551!2d113.98727345483739!3d22.352673471941678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fefda2ea2807%3A0x486db43574f494da!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1569790774204!5m2!1sen!2shk"
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
