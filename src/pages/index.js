@@ -739,53 +739,6 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="1s">
-                <a
-                  href="https://www.linkedin.com/in/jarronstephens"
-                  target="_blank"
-                >
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/jarron-stephens.jpg")}
-                      alt=""
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/jarronstephens"
-                              target="_blank"
-                            >
-                              <i
-                                className="lni-linkedin-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a
-                        href="https://www.linkedin.com/in/jarronstephens"
-                        target="_blank"
-                      >
-                        Jarron Stephens
-                      </a>
-                    </h3>
-                    <p>CTO, Ultifin</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends -->*/}
-            </div>
-            <div className="col-sm-6 col-md-6 col-lg-4"></div>
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="1s">
                 <a href="https://www.linkedin.com/in/varunvasu" target="_blank">
                   <div className="team-img">
                     <img
@@ -1527,35 +1480,11 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/jarron-stephens.jpg")}
-                              alt=""
-                            />
-                          </div>
-                          <span className="time">15:00 - 15:15</span>
-                          <h4>GraphQL and Data Sovereignty</h4>
-                          <h5 className="name">
-                            Jarron Stephens - CTO, Ultifin
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="card">
-                      <div id="headingThree">
-                        <div
-                          className="collapsed card-header"
-                          data-toggle="collapse"
-                          data-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <div className="images-box">
-                            <img
-                              className="img-fluid"
                               src={require("../images/varum-vasudevan.png")}
                               alt=""
                             />
                           </div>
-                          <span className="time">15:15 - 15:30</span>
+                          <span className="time">15:00 - 15:15</span>
                           <h4>Building a bank on GraphQL</h4>
                           <h5 className="name">
                             Varun Vasudevan - Full Stack Developer
@@ -1579,7 +1508,7 @@ const IndexPage = () => {
                               alt=""
                             />
                           </div>
-                          <span className="time">15:30 - 16:00</span>
+                          <span className="time">15:15 - 16:00</span>
                           <h4>Coffee break</h4>
                           <h5 className="name">
                             Last break before ending, get a coffee/tea & connect
