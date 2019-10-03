@@ -76,6 +76,10 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <Helmet>
+        <meta
+          name="google-site-verification"
+          content="Rf1bTXgVCKWQ6QNZFNhUNItOvQeZ5nZlEr1apTwbHMM"
+        />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@GraphQLHongKong" />
         <meta name="twitter:title" content="GraphQL Hong Kong 2019" />
