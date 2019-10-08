@@ -297,14 +297,11 @@ const IndexPage = () => {
           <br />
           <div className="col-12 text-center">
             <a
-              href="#agenda"
+              href="https://bit.ly/35fGZQP"
+              target="_blank"
               className="btn btn-common"
-              style={{ marginRight: 10 }}
             >
-              See the agenda
-            </a>
-            <a href="#venue" className="btn btn-common">
-              Look at the venue
+              See the conf images
             </a>
           </div>
         </div>
@@ -398,7 +395,7 @@ const IndexPage = () => {
                   className="section-title wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
-                  Who's Speaking?
+                  Who was speaking?
                 </h1>
                 {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
               </div>
@@ -2224,7 +2221,7 @@ const IndexPage = () => {
               }}
             >
               <h3 style={{ marginBottom: 40 }}>
-                GraphQL Hong Kong 2019 will be held in
+                GraphQL Hong Kong 2019 was held in
               </h3>
               <a
                 href="https://thewave.com.hk/events-space/kwun-tong/"
