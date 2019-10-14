@@ -16,7 +16,7 @@ require("../../assets/css/nivo-lightbox.css");
 
 require("../../assets/scss/main.scss");
 require("../../assets/scss/responsive.scss");
-const slide1 = require("../images/background.jpg");
+const slide1 = require("../images/sz.jpeg");
 const slideImages = [
   slide1
   // 'images/slide_3.jpg',
@@ -77,40 +77,37 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Helmet>
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@GraphQLHongKong" />
-        <meta name="twitter:title" content="GraphQL Hong Kong Meetup" />
+        <meta name="twitter:site" content="@GraphQLShenzhen" />
+        <meta name="twitter:title" content="GraphQL Shenzhen Meetup" />
         <meta
           name="twitter:description"
           content="A meetup by & for the GraphQL community"
         />
         <meta
           name="twitter:image"
-          content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"
+          content="https://graphql-shenzhen.org/graphql-shenzhen-logo-card.png"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site" content="@GraphQLHongKong" />
-        <meta property="og:title" content="GraphQL Hong Kong Meetup" />
+        <meta property="og:site" content="@GraphQLShenzhen" />
+        <meta property="og:title" content="GraphQL Shenzhen Meetup" />
         <meta
           property="og:description"
           content="A meetup by & for the GraphQL community"
         />
         <meta
           property="og:image"
-          content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"
+          content="https://graphql-shenzhen.org/graphql-shenzhen-logo-card.png"
         />
         <meta
           property="og:image:url"
-          content="https://graphql-hongkong.org/graphql-hongkong-logo-card.png"
+          content="https://graphql-shenzhen.org/graphql-shenzhen-logo-card.png"
         />
         <meta
           name="description"
           content="A meetup by & for the GraphQL community"
         />
-        <meta
-          name="keywords"
-          content="GraphQL,meetup,Asia,HongKong,GraphQLHongKong"
-        />
-        <meta property="og:url" content="https://graphql-hongkong.org/" />
+        <meta name="keywords" content="GraphQL,meetup,Asia,GraphQLShenzhen" />
+        <meta property="og:url" content="https://graphql-shenzhen.org/" />
       </Helmet>
       {/* <!-- Header Area wrapper Starts --> */}
       <header id="header-wrap">
@@ -142,8 +139,8 @@ const IndexPage = () => {
                     display: "block",
                     margin: "0 auto"
                   }}
-                  src={require("../images/graphql-hongkong-logo.png")}
-                  alt="GraphQL Hong Kong Logo"
+                  src={require("../images/graphql-shenzhen-logo.png")}
+                  alt="GraphQL Shenzhen Logo"
                 />
               </a>
             </div>
@@ -249,7 +246,7 @@ const IndexPage = () => {
           }}
         >
           <h1 className="mainTitle">
-            GraphQL Hong Kong <br />
+            GraphQL Shenzhen <br />
             Meetup #1
           </h1>
           <div className="navbar-brand">
@@ -262,8 +259,8 @@ const IndexPage = () => {
                 margin: "0 auto",
                 marginBottom: "20px"
               }}
-              src={require("../images/graphql-hongkong-logo.png")}
-              alt="GraphQL Hong Kong Logo"
+              src={require("../images/graphql-shenzhen-logo.png")}
+              alt="GraphQL Shenzhen Logo"
             />
           </div>
           <h2
@@ -277,7 +274,7 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            04<sup>th</sup> Dec, 2019
+            03<sup>rd</sup> Dec, 2019
           </h2>
           <h2
             class="title-date"
@@ -290,22 +287,20 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            TBD, Hong Kong
+            TBD, Shenzhen
           </h2>
           <br />
           <br />
           <div className="col-12 text-center">
             <a
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdm3jOtYk-s_MVSoNucNVMUwjLGTU30FcAdReuEEkNLPOYIWQ/viewform"
+              href="mailto:info@graphql-shenzhen.org"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
               Submit a talk!
             </a>
             <a
-              target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
+              href="mailto:info@graphql-shenzhen.org"
               className="btn btn-common"
             >
               Become a sponsor
@@ -577,7 +572,7 @@ const IndexPage = () => {
                     <h3>
                       <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
                     </h3>
-                    <p>Organizer, GraphQL Hong Kong</p>
+                    <p>Organizer, GraphQL Shenzhen</p>
                   </div>
                 </a>
               </div>
@@ -600,7 +595,7 @@ const IndexPage = () => {
                   className="section-title wow fadeInUp"
                   data-wow-delay="0.2s"
                 >
-                  Why GraphQL Hong Kong?
+                  Why GraphQL Shenzhen?
                 </h1>
                 {/* <p className="wow fadeInDown" data-wow-delay="0.2s">1<sup>st</sup> local GraphQL event in HK</p> */}
               </div>
@@ -640,7 +635,7 @@ const IndexPage = () => {
                   <h3>
                     <a href="#">Meet New Faces</a>
                   </h3>
-                  <p>At the first GraphQL meetup in Hong Kong.</p>
+                  <p>At the first GraphQL meetup in Shenzhen.</p>
                 </div>
               </div>
             </div>
@@ -784,7 +779,7 @@ const IndexPage = () => {
                 <div className="icon">
                   <i className="lni-timer"></i>
                 </div>
-                <p>December 04th, 2019</p>
+                <p>December 03rd, 2019</p>
                 <span>19:00 – 21:00</span>
               </div>
             </div>
@@ -847,8 +842,8 @@ const IndexPage = () => {
                       aria-expanded="true"
                     >
                       <div className="item-text">
-                        <h4>Wednesday</h4>
-                        <h5>4th December</h5>
+                        <h4>Tuesday</h4>
+                        <h5>3rd December</h5>
                       </div>
                     </a>
                   </li>
@@ -878,7 +873,7 @@ const IndexPage = () => {
                               className="img-fluid"
                               width={60}
                               style={{ borderRadius: 0 }}
-                              src={require("../images/graphql-hongkong-logo.png")}
+                              src={require("../images/graphql-shenzhen-logo.png")}
                               alt=""
                             />
                           </div>
@@ -909,7 +904,7 @@ const IndexPage = () => {
                           <span className="time">19:00 - 19:15</span>
                           <h4>Welcome & Intro</h4>
                           <h5 className="name">
-                            Carlos Rufo - Organizer, GraphQL Hong Kong
+                            Carlos Rufo - Organizer, GraphQL Shenzhen
                           </h5>
                         </div>
                       </div>
@@ -1343,10 +1338,7 @@ const IndexPage = () => {
                 </div>
               </a> */}
 
-              <a
-                target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
-              >
+              <a target="_blank" href="mailto:info@graphql-shenzhen.org">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1356,7 +1348,7 @@ const IndexPage = () => {
                     }}
                     className="img-fluid"
                     src={require("../images/become-sponsor.jpg")}
-                    alt="Hasura"
+                    alt="Sponsor"
                   />
                 </div>
               </a>
@@ -1697,12 +1689,9 @@ const IndexPage = () => {
               }}
             >
               <h3 style={{ marginBottom: 40 }}>
-                GraphQL Hong Kong Meetup #1 will be held in
+                GraphQL Shenzhen Meetup #1 will be held in
               </h3>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdkgoUclUI5KOcdYvunKbtAU13bsoHMCSMxdPphpJ8r6DXh6w/viewform"
-                target="_blank"
-              >
+              <a href="mailto:info@graphql-shenzhen.org">
                 <img
                   width={200}
                   src={require("../images/become-sponsor.jpg")}
@@ -1719,19 +1708,6 @@ const IndexPage = () => {
                 }} id="Ic_Legacy_Logo" viewBox="0 0 190 43"><g fill-rule="nonzero"><path d="M84.904 26H72v2.822l.4-.04.01-.047c.087-.417.863-1.215 1.818-1.215h2.882L77.112 42h2.815l-.016-14.47h2.948c.973 0 1.612.514 1.72.998l.013.053.408-.012L84.972 26h-.068zM2.871 25.359A10.524 10.524 0 0 0 0 32.559c0 2.963 1.185 5.657 3.337 7.585C5.393 41.986 8.142 43 11.077 43c1.539 0 4.554-.264 7.464-2.032l.113-.068.346-4.173-.544-.07-.08.17c-2.136 4.507-5.5 4.507-6.766 4.507-5.672 0-8.256-4.746-8.256-9.156 0-4.265 2.559-8.57 8.276-8.57 1.753 0 4.941.579 6.6 4.447l.092.214.533-.164-.348-4.35-.142-.06C15.701 22.521 13.552 22 11.398 22c-3.481 0-6.43 1.162-8.527 3.359zM22.07 26H22l.005.368.035.017c.238.12.503.733.503 1.418v14.093h2.782l-.011-7.242 1.217.03c1.094.058 1.525.746 2.072 1.617l.068.108.35.561c.595.954 1.41 2.262 2.257 3.457.61.86 1.37 1.353 2.324 1.51.68.112 2.04.068 2.553-.08l.613-.152.232-.056-.845-.248c-.341-.1-.878-.324-1.6-1.116-.447-.49-1.17-1.587-2.266-3.247a2882.216 2882.216 0 0 0-1.106-1.67c-.29-.403-.776-1.056-1.592-1.471 1.568-.487 3.106-1.844 3.106-3.865 0-.574-.155-1.675-1.19-2.607C30.457 26.479 28.82 26 26.643 26H22.07zm4.761 1.433c2.855.115 2.937 2.408 2.937 2.668 0 2.308-1.794 3.127-3.33 3.127l-1.116-.022v-5.748c.291-.023.825-.052 1.51-.025zM49.076 26H49l.052.396.032.016c.24.116.466.688.466 1.18L49.534 42h4.715c3.113 0 5.689-.937 7.45-2.71A7.929 7.929 0 0 0 64 33.75c0-1.239-.432-3.11-1.644-4.644-1.625-2.06-4.202-3.105-7.66-3.105h-5.62zm3.26 1.535l1.476.004c.393.005 1.384.028 2.08.13 4.633.68 5.133 4.479 5.133 6.08 0 1.313-.242 3.181-1.394 4.626-1.13 1.418-2.9 2.136-5.265 2.136-.564 0-1.265-.001-2.03-.035v-12.94zM68.938 26H66l.01.388.033.018c.27.143.446.663.446 1.325V42h2.507L69 26h-.062zM122.94 26H120l.03.36.03.017c.264.142.443.685.443 1.354V42h2.493L123 26h-.06zM45.805 26.001H37l.05.376.03.015c.24.12.49.686.49 1.423L37.567 42h8.793L47 39.165l-.354-.13-.1.159c-.727 1.162-1.466 1.316-4.017 1.316-.91.02-1.796-.061-2.351-.114v-6.529h4.448v-1.442h-4.448v-4.978l3.606.042c.813 0 1.706.79 1.785 1.268l.01.055.36-.008L45.868 26h-.063v.001zM159.8 26H151l.018.41.035.016c.237.12.49.648.49 1.388L151.54 42h8.817l.642-2.838-.399-.125-.098.156c-.73 1.163-1.462 1.317-3.986 1.317-.912.02-1.8-.061-2.357-.114v-6.529h4.46v-1.442h-4.46v-4.978l3.617.042c.998 0 1.748.77 1.748 1.27v.07l.41-.028-.07-2.801h-.065zM92.306 23.285c-.914.693-2.008 1.968-2.029 4.107v.062c0 2.63 1.588 4.013 4.147 5.382l-.01-.027c.067.057.29.179.984.552 2.137 1.132 3.68 1.95 3.68 4.252 0 .79-.283 1.929-1.074 2.756-.66.69-1.546 1.033-2.635 1.02-3.262-.035-4.416-3.053-4.761-4.35l-.06-.225-.548.096.152 4.284.118.071c1.041.64 2.783 1.708 5.278 1.735 1.768.018 3.56-.741 4.795-2.032C101.428 39.835 102 38.4 102 36.817c0-3.475-2.359-4.779-4.86-6.16l-.47-.261c-2.56-1.357-3.765-2.183-3.748-3.887.011-1.157.837-2.986 3.006-2.963 2.521.027 3.914 2.029 4.198 3.284l.052.227.543-.073-.186-3.71-.1-.071C98.94 22.14 97.068 22.008 96.33 22c-1.46-.015-2.929.453-4.025 1.285zM127.23 30.133c-.022 2.182 1.33 3.288 3.52 4.365l.826.408c1.724.84 2.864 1.394 2.864 2.963 0 .274-.058 1.224-.81 1.946-.521.5-1.245.75-2.148.74-2.586-.025-3.535-1.974-3.87-3.134l-.064-.216-.548.088.128 3.319.124.068c.862.486 2.303 1.299 4.376 1.32 1.47.015 2.962-.566 3.99-1.554.904-.867 1.382-1.966 1.382-3.18 0-2.759-1.97-3.758-4.054-4.817l-.368-.187c-2.239-1.09-3.02-1.58-3.008-2.796.008-.854.67-2.117 2.45-2.1 2.178.022 3.13 1.55 3.329 2.355l.053.219.548-.069-.157-2.883-.107-.069c-1.243-.813-2.798-.913-3.41-.919-2.425-.024-5.016 1.417-5.046 4.133zM139.23 30.133c-.022 2.182 1.33 3.288 3.52 4.366l.826.407c1.725.84 2.864 1.394 2.864 2.963 0 .274-.06 1.224-.81 1.946-.521.5-1.245.75-2.148.74-2.584-.025-3.535-1.974-3.87-3.134l-.064-.216-.548.088.128 3.318.124.07c.862.485 2.305 1.298 4.376 1.319 1.47.015 2.962-.566 3.99-1.554.904-.867 1.382-1.966 1.382-3.18 0-2.759-1.968-3.758-4.054-4.817l-.368-.187c-2.239-1.09-3.02-1.58-3.008-2.796.006-.538.25-1.089.655-1.473.438-.417 1.06-.634 1.796-.627 2.178.022 3.129 1.55 3.327 2.355l.055.219.547-.069-.157-2.883-.107-.069c-1.243-.813-2.8-.913-3.41-.919-2.424-.024-5.016 1.417-5.046 4.133zM115.935 26.001l-2.07.014.034.355.032.016c.103.052.444.3.444 1.297l.012 8.971c0 1.738-.636 3.81-3.666 3.81-2.862 0-3.45-1.715-3.45-4.291l.003-10.159H104l.024.352.031.017c.21.11.562.527.562 1.38v8.409c0 5.224 3.426 5.828 6.005 5.828 1.259 0 5.366-.383 5.366-5.308L116 26l-.065.001zM183.603 22.021c1.902.62 3.92 1.49 6.035 2.69-5.194-8.713-14.487-18.205-23.604-24.356 2.35 2.363 6.165 7.565 7.154 13.143 3.735 2.703 7.26 5.58 10.415 8.523zM183.597 22.018c-4.456-1.456-8.254-1.529-11.072-1.234.991-2.361 1.092-4.852.665-7.274-6.9-4.993-14.505-9.404-21.817-12.554 5.365 3.69 11.28 14.334 13.763 25.752 5.289-1.59 13.434-2.687 23.934.9a80.163 80.163 0 0 0-5.473-5.59z"></path></g></svg>
               </div>              
             </div> */}
-            </div>
-            <div className="col-12" style={{ padding: 0 }}>
-              <div id="conatiner-map">
-                <iframe
-                  style={{
-                    width: "100%",
-                    height: "500px"
-                  }}
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.6193121551!2d113.98727345483739!3d22.352673471941678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fefda2ea2807%3A0x486db43574f494da!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1569790774204!5m2!1sen!2shk"
-                  frameBorder="0"
-                  allowFullScreen
-                ></iframe>
-              </div>
             </div>
           </div>
         </div>
@@ -1767,8 +1743,8 @@ const IndexPage = () => {
                     display: "block",
                     margin: "0 auto"
                   }}
-                  src={require("../images/graphql-hongkong-logo.png")}
-                  alt="GraphQL Hong Kong Logo"
+                  src={require("../images/graphql-shenzhen-logo.png")}
+                  alt="GraphQL Shenzhen Logo"
                 />
               </div>
             </div>
@@ -1777,7 +1753,7 @@ const IndexPage = () => {
               data-wow-delay="0.3s"
             >
               <p className="intro-desc">
-                GraphQL Hong Kong is dedicated to providing a harassment-free
+                GraphQL Shenzhen is dedicated to providing a harassment-free
                 conference experience for everyone, regardless of gender, gender
                 identity and expression, age, sexual orientation, disability,
                 physical appearance, body size, race, ethnicity, religion (or
@@ -2156,7 +2132,7 @@ const IndexPage = () => {
                   <li>
                     <a
                       className="twitter"
-                      href="https://twitter.com/GraphQLHongKong"
+                      href="https://twitter.com/GraphQLShenzhen"
                     >
                       <i className="lni-twitter-filled"></i>
                     </a>

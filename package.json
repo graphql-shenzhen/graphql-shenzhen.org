@@ -1,7 +1,7 @@
 {
-  "name": "graphql-hongkong.org",
+  "name": "graphql-shenzhen.org",
   "private": true,
-  "description": "GraphQL Hongkong website",
+  "description": "GraphQL Shenzhen website",
   "version": "0.1.0",
   "author": "Tobias Meixner <meixner.tobias@gmail.com>",
   "dependencies": {
