@@ -182,11 +182,11 @@ const IndexPage = () => {
                     Sponsors
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#pricing">
                     rspv
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" href="#venue">
                     venue
@@ -298,7 +298,7 @@ const IndexPage = () => {
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              Submit a talk
+              Submit a talk!
             </a>
             {/* <a
               href="#pricing"
@@ -857,7 +857,7 @@ const IndexPage = () => {
                   <i className="lni-users"></i>
                 </div>
                 <p>~50 Available Seats</p>
-                <span>Hurry up! RSPV before it's late</span>
+                <span>WE'RE LOOKING FOR VENUE SPONSORS!</span>
               </div>
             </div>
             {/* <!-- Counter Item --> */}
@@ -2158,9 +2158,9 @@ const IndexPage = () => {
                 <li>
                   <a href="#sponsors">Our sponsors</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#pricing">RSPV</a>
-                </li>
+                </li> */}
                 {/* <li><a href="#">Latest News</a></li> */}
                 {/* <li><a href="#">Event Photo Gallery</a></li> */}
               </ul>
