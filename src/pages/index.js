@@ -497,6 +497,59 @@ const IndexPage = () => {
             </div>
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
+              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+                <a href="mailto:info@graphql-shenzhen.org">
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/profile-picture.png")}
+                      alt="Profile picture"
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        {/* <ul className="social-icons">
+                          <li>
+                            <a href="https://twitter.com/swcarlosrj">
+                              <i
+                                className="lni-twitter-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="mailto:info@graphql-shenzhen.org">Join us!</a>
+                    </h3>
+                    <p>Local Speaker, Shenzhen</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends --> */}
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title-header text-center">
+                <h1
+                  className="section-title wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  Masters of ceremonies
+                </h1>
+                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center align-items-center">
+            <div className="col-sm-6 col-md-6 col-lg-4">
+              {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.6s">
                 <a href="https://twitter.com/meixnertobias">
                   <div className="team-img">
@@ -526,59 +579,6 @@ const IndexPage = () => {
                         Tobias Meixner
                       </a>
                     </h3>
-                    <p>Co-Founder & CTO, BrikL</p>
-                  </div>
-                </a>
-              </div>
-              {/* <!-- Team Item Ends --> */}
-            </div>
-          </div>
-
-          <br />
-          <br />
-          <div className="row">
-            <div className="col-12">
-              <div className="section-title-header text-center">
-                <h1
-                  className="section-title wow fadeInUp"
-                  data-wow-delay="0.2s"
-                >
-                  Masters of ceremonies
-                </h1>
-                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> */}
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center align-items-center">
-            <div className="col-sm-6 col-md-6 col-lg-4">
-              {/* <!-- Team Item Starts --> */}
-              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="https://twitter.com/swcarlosrj">
-                  <div className="team-img">
-                    <img
-                      className="img-fluid"
-                      src={require("../images/carlos-rufo.jpg")}
-                      alt="Carlos Rufo"
-                    />
-                    <div className="team-overlay">
-                      <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
-                          <li>
-                            <a href="https://twitter.com/swcarlosrj">
-                              <i
-                                className="lni-twitter-filled"
-                                aria-hidden="true"
-                              ></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="info-text">
-                    <h3>
-                      <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
-                    </h3>
                     <p>Organizer, GraphQL Shenzhen</p>
                   </div>
                 </a>
@@ -587,6 +587,65 @@ const IndexPage = () => {
             </div>
           </div>
           {/* <a href="speakers.html" className="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a> */}
+
+          {/* <br />
+          <br />
+          <div className="row">
+            <div className="col-12">
+              <div className="section-title-header text-center">
+                <h1
+                  className="section-title wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  Past Speakers
+                </h1>
+                {/* <p className="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> 
+              </div>
+            </div>
+          </div>
+          */}
+          {/*
+          <div className="row">
+            <div
+              className="col-sm-6 col-md-6 col-lg-4"
+              style={{ maxWidth: 300 }}
+            >
+              {/* <!-- Team Item Starts --> 
+              <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
+                <a href="mailto:info@graphql-shenzhen.org">
+                  <div className="team-img">
+                    <img
+                      className="img-fluid"
+                      src={require("../images/profile-picture.png")}
+                      alt="Profile picture"
+                    />
+                    <div className="team-overlay">
+                      <div className="overlay-social-icon text-center">
+                        {/* <ul className="social-icons">
+                          <li>
+                            <a href="https://twitter.com/swcarlosrj">
+                              <i
+                                className="lni-twitter-filled"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                        </ul> 
+                      </div>
+                    </div>
+                  </div>
+                  <div className="info-text">
+                    <h3>
+                      <a href="mailto:info@graphql-shenzhen.org">Join us!</a>
+                    </h3>
+                    <p>Local | International Speaker</p>
+                  </div>
+                </a>
+              </div>
+              {/* <!-- Team Item Ends --> 
+            </div>
+          </div>
+        */}
         </div>
       </section>
       {/* <!-- Team Section End --> */}
@@ -904,14 +963,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/carlos-rufo.jpg")}
+                              src={require("../images/tobias-meixner.jpg")}
                               alt=""
                             />
                           </div>
                           <span className="time">19:00 - 19:15</span>
                           <h4>Welcome & Intro</h4>
                           <h5 className="name">
-                            Carlos Rufo - Organizer, GraphQL Shenzhen
+                            Tobias Meixner - Organizer, GraphQL Shenzhen
                           </h5>
                         </div>
                       </div>
@@ -976,14 +1035,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/tobias-meixner.jpg")}
+                              src={require("../images/profile-picture.png")}
                               alt=""
                             />
                           </div>
                           <span className="time">20:15 - 20:45</span>
                           <h4>TBD</h4>
                           <h5 className="name">
-                            Tobias Meixner - Co-Founder & CTO, BrikL
+                            Join us! - Local Speaker, Shenzhen
                           </h5>
                         </div>
                       </div>
@@ -1650,7 +1709,7 @@ const IndexPage = () => {
                   </ul>
                 </div>
                 <button disabled className="btn btn-common">
-                  RSPV here!
+                  RSPV opening soon!
                 </button>
                 {/* <br />
                 powered by
