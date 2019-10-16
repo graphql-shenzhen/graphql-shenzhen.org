@@ -287,7 +287,8 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            WeWork, TCL大厦B座9层
+            {/* WeWork, TCL大厦B座9层 */}
+            TBD, Shenzhen
           </h2>
           <br />
           <br />
@@ -299,13 +300,13 @@ const IndexPage = () => {
             >
               Submit a talk
             </a>
-            <a
+            {/* <a
               href="#pricing"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
               RSPV NOW!
-            </a>
+            </a> */}
             <a
               href="mailto:info@graphql-shenzhen.org"
               className="btn btn-common"
@@ -524,7 +525,7 @@ const IndexPage = () => {
                     <h3>
                       <a href="mailto:info@graphql-shenzhen.org">Join us!</a>
                     </h3>
-                    <p>Local Speaker, Shenzhen</p>
+                    <p>Local speaker, Shenzhen</p>
                   </div>
                 </a>
               </div>
@@ -1042,7 +1043,7 @@ const IndexPage = () => {
                           <span className="time">20:15 - 20:45</span>
                           <h4>TBD</h4>
                           <h5 className="name">
-                            Join us! - Local Speaker, Shenzhen
+                            Join us! - Local speaker, Shenzhen
                           </h5>
                         </div>
                       </div>
@@ -1389,7 +1390,7 @@ const IndexPage = () => {
             </div>
             <div className="col-md-6 col-sm-6 col-xs-6">
               <h2>Venue</h2>
-              <a href="https://www.wework.com" target="_blank">
+              {/* <a href="https://www.wework.com" target="_blank">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1402,9 +1403,9 @@ const IndexPage = () => {
                     alt="WeWork"
                   />
                 </div>
-              </a>
+              </a> */}
 
-              {/* <a target="_blank" href="mailto:info@graphql-shenzhen.org">
+              <a target="_blank" href="mailto:info@graphql-shenzhen.org">
                 <div className="spnsors-logo">
                   <img
                     style={{
@@ -1417,7 +1418,7 @@ const IndexPage = () => {
                     alt="Sponsor"
                   />
                 </div>
-              </a> */}
+              </a>
             </div>
           </div>
           <div className="row">
@@ -1651,7 +1652,7 @@ const IndexPage = () => {
       </section>
       {/* <!-- Sponsors Section End --> */}
 
-      {/* <!-- Ticket pricing Area Start --> */}
+      {/* <!-- Ticket pricing Area Start --> 
       <div id="pricing" style={{ paddingBottom: 40 }}></div>
       <section id="pricing" className="section-padding">
         <div className="container">
@@ -1703,9 +1704,9 @@ const IndexPage = () => {
                       <i className="lni-check-mark-circle"></i>
                       <span className="text">Swag</span>
                     </li>
-                    {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> */}
-                    {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> */}
-                    {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> */}
+                    {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> 
+                    {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> 
+                    {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> 
                   </ul>
                 </div>
                 <button disabled className="btn btn-common">
@@ -1720,7 +1721,7 @@ const IndexPage = () => {
                   style={{
                     height: "20px"
                   }}
-                ></img> */}
+                ></img> 
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-xa-12 mb-3"></div>
@@ -1757,15 +1758,21 @@ const IndexPage = () => {
                 GraphQL Shenzhen Meetup #1 will be held in
               </h3>
               <a href="mailto:info@graphql-shenzhen.org">
+                <img
+                  width={300}
+                  src={require("../images/become-sponsor.jpg")}
+                />
+              </a>
+              {/* <a href="mailto:info@graphql-shenzhen.org">
                 <img width={300} src={require("../images/wework.png")} />
               </a>
               <h3 style={{ marginTop: 40, marginBottom: 20 }}>
                 南山区高新南一道6号TCL大厦B座9层
-              </h3>
+              </h3> */}
             </div>
-            <div className="col-12" style={{ padding: 0 }}>
+            {/* <div className="col-12" style={{ padding: 0 }}>
               <div id="conatiner-map">
-                <iframe
+                {/* <iframe
                   style={{
                     width: "100%",
                     height: "500px"
@@ -1773,7 +1780,7 @@ const IndexPage = () => {
                   frameBorder="0"
                   allowFullScreen
                   src="https://j.map.baidu.com/69/JNl"
-                ></iframe>
+                ></iframe> 
                 {/* <iframe
                   style={{
                     width: "100%",
@@ -1782,9 +1789,9 @@ const IndexPage = () => {
                   frameBorder="0"
                   allowFullScreen
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14764.655635042041!2d114.2244856!3d22.30964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7da079e4466780b8!2sThe+Wave!5e0!3m2!1sen!2s!4v1566558034090!5m2!1sen!2s"
-                ></iframe> */}
+                ></iframe>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         <div style={{ paddingBottom: 40 }}></div>
