@@ -182,11 +182,11 @@ const IndexPage = () => {
                     Sponsors
                   </a>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <a className="nav-link" href="#pricing">
                     rspv
                   </a>
-                </li> */}
+                </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#venue">
                     venue
@@ -287,8 +287,8 @@ const IndexPage = () => {
               margin: "0 auto"
             }}
           >
-            {/* WeWork, TCL大厦B座9层 */}
-            TBD, Shenzhen
+            WeWork, TCL大厦B座9层
+            {/* TBD, Shenzhen */}
           </h2>
           <br />
           <br />
@@ -298,15 +298,15 @@ const IndexPage = () => {
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
-              Submit a talk!
+              Submit a talk
             </a>
-            {/* <a
+            <a
               href="#pricing"
               className="btn btn-common"
               style={{ marginRight: 10 }}
             >
               RSPV NOW!
-            </a> */}
+            </a>
             <a
               href="mailto:info@graphql-shenzhen.org"
               className="btn btn-common"
@@ -1358,6 +1358,38 @@ const IndexPage = () => {
             data-wow-delay="0.3s"
           >
             <div className="col-md-6 col-sm-6 col-xs-6">
+              <h2>Venue</h2>
+              <a href="https://www.wework.com" target="_blank">
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/wework.png")}
+                    alt="WeWork"
+                  />
+                </div>
+              </a>
+
+              {/* <a target="_blank" href="mailto:info@graphql-shenzhen.org">
+                <div className="spnsors-logo">
+                  <img
+                    style={{
+                      width: "200px",
+                      height: "200px",
+                      objectFit: "contain"
+                    }}
+                    className="img-fluid"
+                    src={require("../images/become-sponsor.jpg")}
+                    alt="Sponsor"
+                  />
+                </div>
+              </a> */}
+            </div>
+            <div className="col-md-6 col-sm-6 col-xs-6">
               <h2>Food & Drinks</h2>
               {/* <a href="https://aws.amazon.com/amplify">
                 <div className="spnsors-logo">
@@ -1384,38 +1416,6 @@ const IndexPage = () => {
                     className="img-fluid"
                     src={require("../images/hasura.svg")}
                     alt="Hasura"
-                  />
-                </div>
-              </a>
-            </div>
-            <div className="col-md-6 col-sm-6 col-xs-6">
-              <h2>Venue</h2>
-              {/* <a href="https://www.wework.com" target="_blank">
-                <div className="spnsors-logo">
-                  <img
-                    style={{
-                      width: "200px",
-                      height: "200px",
-                      objectFit: "contain"
-                    }}
-                    className="img-fluid"
-                    src={require("../images/wework.png")}
-                    alt="WeWork"
-                  />
-                </div>
-              </a> */}
-
-              <a target="_blank" href="mailto:info@graphql-shenzhen.org">
-                <div className="spnsors-logo">
-                  <img
-                    style={{
-                      width: "200px",
-                      height: "200px",
-                      objectFit: "contain"
-                    }}
-                    className="img-fluid"
-                    src={require("../images/become-sponsor.jpg")}
-                    alt="Sponsor"
                   />
                 </div>
               </a>
@@ -1652,7 +1652,7 @@ const IndexPage = () => {
       </section>
       {/* <!-- Sponsors Section End --> */}
 
-      {/* <!-- Ticket pricing Area Start --> 
+      {/* <!-- Ticket pricing Area Start -->  */}
       <div id="pricing" style={{ paddingBottom: 40 }}></div>
       <section id="pricing" className="section-padding">
         <div className="container">
@@ -1704,31 +1704,17 @@ const IndexPage = () => {
                       <i className="lni-check-mark-circle"></i>
                       <span className="text">Swag</span>
                     </li>
-                    {/* <li><i className="lni-close"></i><span className="text">Access to all areas</span></li> 
-                    {/* <li><i className="lni-check-mark-circle"></i><span className="text">Certificate</span></li> 
-                    {/* <li><i className="lni-close"></i><span className="text">Workshop</span></li> 
                   </ul>
                 </div>
                 <button disabled className="btn btn-common">
                   RSPV opening soon!
                 </button>
-                {/* <br />
-                powered by
-                <br />
-                <img
-                  src="https://l.oveit.com/public/images/logo-small.png"
-                  alt="Oveit"
-                  style={{
-                    height: "20px"
-                  }}
-                ></img> 
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-xa-12 mb-3"></div>
           </div>
         </div>
       </section>
-      <div id="buy-tickets" style={{ paddingBottom: 40 }}></div>
       {/* <!-- Map Section Start --> */}
       <div id="venue" style={{ paddingBottom: 100 }}></div>
       <section id="venue-map">
@@ -1757,22 +1743,22 @@ const IndexPage = () => {
               <h3 style={{ marginBottom: 40 }}>
                 GraphQL Shenzhen Meetup #1 will be held in
               </h3>
-              <a href="mailto:info@graphql-shenzhen.org">
+              {/* <a href="mailto:info@graphql-shenzhen.org">
                 <img
                   width={300}
                   src={require("../images/become-sponsor.jpg")}
                 />
-              </a>
-              {/* <a href="mailto:info@graphql-shenzhen.org">
+              </a> */}
+              <a href="mailto:info@graphql-shenzhen.org">
                 <img width={300} src={require("../images/wework.png")} />
               </a>
               <h3 style={{ marginTop: 40, marginBottom: 20 }}>
                 南山区高新南一道6号TCL大厦B座9层
-              </h3> */}
+              </h3>
             </div>
-            {/* <div className="col-12" style={{ padding: 0 }}>
+            <div className="col-12" style={{ padding: 0 }}>
               <div id="conatiner-map">
-                {/* <iframe
+                <iframe
                   style={{
                     width: "100%",
                     height: "500px"
@@ -1780,7 +1766,7 @@ const IndexPage = () => {
                   frameBorder="0"
                   allowFullScreen
                   src="https://j.map.baidu.com/69/JNl"
-                ></iframe> 
+                ></iframe>
                 {/* <iframe
                   style={{
                     width: "100%",
@@ -1789,9 +1775,9 @@ const IndexPage = () => {
                   frameBorder="0"
                   allowFullScreen
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14764.655635042041!2d114.2244856!3d22.30964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7da079e4466780b8!2sThe+Wave!5e0!3m2!1sen!2s!4v1566558034090!5m2!1sen!2s"
-                ></iframe>
+                ></iframe>*/}
               </div>
-            </div>*/}
+            </div>
           </div>
         </div>
         <div style={{ paddingBottom: 40 }}></div>
@@ -2158,11 +2144,6 @@ const IndexPage = () => {
                 <li>
                   <a href="#sponsors">Our sponsors</a>
                 </li>
-                {/* <li>
-                  <a href="#pricing">RSPV</a>
-                </li> */}
-                {/* <li><a href="#">Latest News</a></li> */}
-                {/* <li><a href="#">Event Photo Gallery</a></li> */}
               </ul>
             </div>
             <div
