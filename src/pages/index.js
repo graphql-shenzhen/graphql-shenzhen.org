@@ -1706,9 +1706,9 @@ const IndexPage = () => {
                     </li>
                   </ul>
                 </div>
-                <button disabled className="btn btn-common">
-                  RSPV opening soon!
-                </button>
+                <a href="https://www.meetup.com/GraphQLShenzhen/events/266284941" target="_blank" className="btn btn-common">
+                  RSPV now!
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-xa-12 mb-3"></div>
