@@ -415,38 +415,33 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.4s">
-                <a href="https://twitter.com/tanmaigo" target="_blank">
+                <a href="#speakers">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/tanmai-gopal.jpg")}
+                      src={require("../images/jinbin-liang.png")}
                       alt=""
                     />
                     <div className="team-overlay">
                       <div className="overlay-social-icon text-center">
-                        <ul className="social-icons">
+                        {/* <ul className="social-icons">
                           <li>
-                            <a
-                              href="https://twitter.com/tanmaigo"
-                              target="_blank"
-                            >
+                            <a href="#speakers" target="_blank">
                               <i
                                 className="lni-twitter-filled"
                                 aria-hidden="true"
                               ></i>
                             </a>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="https://twitter.com/tanmaigo" target="_blank">
-                        Tanmai Gopal
-                      </a>
+                      <a href="#speakers">Jinbin Liang</a>
                     </h3>
-                    <p>Co-Founder & CEO, Hasura</p>
+                    <p>Fullstack Developer, Baseline Software</p>
                   </div>
                 </a>
               </div>
@@ -499,16 +494,16 @@ const IndexPage = () => {
             <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
               <div className="team-item wow fadeInUp" data-wow-delay="0.2s">
-                <a href="mailto:info@graphql-shenzhen.org">
+                <a href="https://twitter.com/swcarlosrj">
                   <div className="team-img">
                     <img
                       className="img-fluid"
-                      src={require("../images/profile-picture.png")}
-                      alt="Profile picture"
+                      src={require("../images/carlos-rufo.jpg")}
+                      alt=""
                     />
                     <div className="team-overlay">
                       <div className="overlay-social-icon text-center">
-                        {/* <ul className="social-icons">
+                        <ul className="social-icons">
                           <li>
                             <a href="https://twitter.com/swcarlosrj">
                               <i
@@ -517,15 +512,15 @@ const IndexPage = () => {
                               ></i>
                             </a>
                           </li>
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div className="info-text">
                     <h3>
-                      <a href="mailto:info@graphql-shenzhen.org">Join us!</a>
+                      <a href="https://twitter.com/swcarlosrj">Carlos Rufo</a>
                     </h3>
-                    <p>Local speaker, Shenzhen</p>
+                    <p>Organizer, GraphQL Hong Kong</p>
                   </div>
                 </a>
               </div>
@@ -988,14 +983,15 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/tanmai-gopal.jpg")}
+                              src={require("../images/jinbin-liang.png")}
                               alt=""
                             />
                           </div>
                           <span className="time">19:15 - 19:45</span>
-                          <h4>TBD</h4>
+                          <h4>GraphQL — 入入⻔门问题简答</h4>
                           <h5 className="name">
-                            Tanmai Gopal - Co-Founder & CEO, Hasura
+                            Jinbin Liang - Fullstack Developer, Baseline
+                            Software
                           </h5>
                         </div>
                       </div>
@@ -1017,7 +1013,7 @@ const IndexPage = () => {
                             />
                           </div>
                           <span className="time">19:45 - 20:15</span>
-                          <h4>TBD</h4>
+                          <h4>GraphQL where it hurts the most</h4>
                           <h5 className="name">
                             Uri Goldshtein - Founder & CEO, The Guild
                           </h5>
@@ -1036,14 +1032,14 @@ const IndexPage = () => {
                           <div className="images-box">
                             <img
                               className="img-fluid"
-                              src={require("../images/profile-picture.png")}
+                              src={require("../images/carlos-rufo.jpg")}
                               alt=""
                             />
                           </div>
                           <span className="time">20:15 - 20:45</span>
-                          <h4>TBD</h4>
+                          <h4>End-to-end Type-Safe GraphQL Apps</h4>
                           <h5 className="name">
-                            Join us! - Local speaker, Shenzhen
+                            Carlos Rufo - Organizer, GraphQL Hong Kong
                           </h5>
                         </div>
                       </div>
@@ -1706,7 +1702,11 @@ const IndexPage = () => {
                     </li>
                   </ul>
                 </div>
-                <a href="https://www.meetup.com/GraphQLShenzhen/events/266284941" target="_blank" className="btn btn-common">
+                <a
+                  href="https://www.meetup.com/GraphQLShenzhen/events/266284941"
+                  target="_blank"
+                  className="btn btn-common"
+                >
                   RSPV now!
                 </a>
               </div>
