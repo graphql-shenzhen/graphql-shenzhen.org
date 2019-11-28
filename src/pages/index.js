@@ -988,7 +988,7 @@ const IndexPage = () => {
                             />
                           </div>
                           <span className="time">19:15 - 19:45</span>
-                          <h4>GraphQL — 入入⻔门问题简答</h4>
+                          <h4>GraphQL — 入门问题简答</h4>
                           <h5 className="name">
                             Jinbin Liang - Fullstack Developer, Baseline
                             Software
